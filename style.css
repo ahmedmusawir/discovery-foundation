@@ -23,20 +23,20 @@ meta.foundation-mq-medium {
 
 /* line 383, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium-only {
-  font-family: "/only screen and (min-width:40.0625em) and (max-width:64em)/";
+  font-family: "/only screen and (min-width:40.0625em) and (max-width:48em)/";
   width: 40.0625em;
 }
 
 /* line 388, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.0625em)/";
-  width: 64.0625em;
+  font-family: "/only screen and (min-width:48.0625em)/";
+  width: 48.0625em;
 }
 
 /* line 393, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large-only {
-  font-family: "/only screen and (min-width:64.0625em) and (max-width:90em)/";
-  width: 64.0625em;
+  font-family: "/only screen and (min-width:48.0625em) and (max-width:90em)/";
+  width: 48.0625em;
 }
 
 /* line 398, bower_components/foundation/scss/foundation/components/_global.scss */
@@ -1154,7 +1154,7 @@ select {
     left: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 155, bower_components/foundation/scss/foundation/components/_grid.scss */
   .large-push-0 {
     position: relative;
@@ -2164,7 +2164,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 62, bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     list-style: none;
@@ -4547,7 +4547,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 115, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.large-vertical {
     height: 100%;
@@ -4636,7 +4636,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 253, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.two-up.large-vertical .item {
     width: auto;
@@ -4656,7 +4656,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 267, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.three-up.large-vertical .item {
     width: auto;
@@ -4676,7 +4676,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 281, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.four-up.large-vertical .item {
     width: auto;
@@ -4696,7 +4696,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 295, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.five-up.large-vertical .item {
     width: auto;
@@ -4716,7 +4716,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 309, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.six-up.large-vertical .item {
     width: auto;
@@ -4736,7 +4736,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 323, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.seven-up.large-vertical .item {
     width: auto;
@@ -4756,7 +4756,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 337, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.eight-up.large-vertical .item {
     width: auto;
@@ -4777,7 +4777,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 369, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.two-up.large-vertical .item {
     width: auto;
@@ -4797,7 +4797,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 383, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.three-up.large-vertical .item {
     width: auto;
@@ -4817,7 +4817,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 397, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.four-up.large-vertical .item {
     width: auto;
@@ -4837,7 +4837,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 411, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.five-up.large-vertical .item {
     width: auto;
@@ -4857,7 +4857,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 425, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.six-up.large-vertical .item {
     width: auto;
@@ -4877,7 +4877,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 439, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.seven-up.large-vertical .item {
     width: auto;
@@ -4897,7 +4897,7 @@ label.error {
     width: auto;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 453, bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.eight-up.large-vertical .item {
     width: auto;
@@ -7664,7 +7664,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+@media only screen and (min-width: 40.0625em) and (max-width: 48em) {
   /* line 162, bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -7706,7 +7706,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.0625em) and (max-width: 90em) {
+@media only screen and (min-width: 48.0625em) and (max-width: 90em) {
   /* line 162, bower_components/foundation/scss/foundation/components/_type.scss */
   .large-only-text-left {
     text-align: left !important;
@@ -7727,7 +7727,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 162, bower_components/foundation/scss/foundation/components/_type.scss */
   .large-text-left {
     text-align: left !important;
@@ -8850,7 +8850,7 @@ ul.off-canvas-list li a:active {
   }
 }
 /* large displays */
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 244, bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
@@ -9439,8 +9439,71 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 2, scss/_custom.scss */
+/* line 6, scss/_custom.scss */
 body {
-  color: red;
-  background-color: yellow;
+  background: url(images/bg-blue-blurry-street.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 16, scss/_custom.scss */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 22, scss/_custom.scss */
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: silver;
+}
+/* line 27, scss/_custom.scss */
+header h1 {
+  color: #9999ff;
+  text-shadow: 4px 4px 6px black;
+}
+/* line 32, scss/_custom.scss */
+header .header-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+}
+
+/* line 46, scss/_custom.scss */
+.front-widget {
+  background: transparent;
+}
+/* line 51, scss/_custom.scss */
+.front-widget .front-widget-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  padding-bottom: .1em;
+  margin-bottom: 1em;
+  color: silver;
+}
+/* line 60, scss/_custom.scss */
+.front-widget .front-widget-content h3 {
+  color: #9999ff;
+}
+
+/* line 67, scss/_custom.scss */
+.blog-index-block {
+  margin-top: 1em;
+  padding-top: 2em;
+  background: transparent;
+}
+/* line 72, scss/_custom.scss */
+.blog-index-block .blog-index-item {
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+  padding-left: .5em;
+  color: silver;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 80, scss/_custom.scss */
+.blog-index-block .blog-index-item h3 {
+  color: #9999ff;
 }

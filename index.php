@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <header class="row">
   <div class="small-12 columns">
-    <h1>THE BLOG</h1>
+    <h1><a href="#">PROFICIO</a></h1>
     <div class="header-content">
 	    <p>
 			<a class="button alert small right" href="#">Read More ...</a>
@@ -21,14 +21,14 @@
 	<div class="front-widget widget-left small-12 medium-4 large-4 columns">
 
 		<article class="front-widget-content">
-			<h3>Title</h3>
+			<h3><a href="#">Front Widget Title</a></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. </p>
 
 			<p>
-				<a class="button secondary round small" href="#">Read More ...</a>
+				<a class="button round small" href="#">Read More ...</a>
 			</p>
 		</article>
 
@@ -37,14 +37,15 @@
 	<div class="front-widget widget-center small-12 medium-4 large-4 columns">
 		
 		<article class="front-widget-content">
-			<h3>Title</h3>
+			<h3><a href="#">Front Widget Title</a></h3>
+			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. </p>
 
 			<p>
-				<a class="button secondary round small" href="#">Read More ...</a>
+				<a class="button round small" href="#">Read More ...</a>
 			</p>
 		</article>
 	
@@ -53,14 +54,15 @@
 	<div class="front-widget widget-right small-12 medium-4 large-4 columns">
 		
 		<article class="front-widget-content">
-			<h3>Title</h3>
+			<h3><a href="#">Front Widget Title</a></h3>
+			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
 
 			<p>
-				<a class="button secondary round small" href="#">Read More ...</a>
+				<a class="button round small" href="#">Read More ...</a>
 			</p>
 		</article>
 		
@@ -76,12 +78,12 @@
 				<article class="blog-index-block-content">
 	
 					<div class="small-12 medium-4 large-4 columns">
-						<img src="http://lorempixel.com/300/300/transport/1">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/1"></a>
 					</div>
 	
 					<div class="small-12 medium-8 large-8 columns">
 	
-						<h3>Article Title</h3>
+						<h3><a href="#">Article Title</a></h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -113,7 +115,7 @@
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
-						<h3>Article Title</h3>
+						<h3><a href="#">Article Title</a></h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -143,12 +145,12 @@
 				<article class="blog-index-block-content">
 	
 					<div class="small-12 medium-4 large-4 columns">
-						<img src="http://lorempixel.com/300/300/transport/2">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/2"></a>
 					</div>
 	
 					<div class="small-12 medium-8 large-8 columns">
 	
-						<h3>Article Title</h3>
+						<h3><a href="#">Article Title</a></h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

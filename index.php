@@ -28,7 +28,7 @@
 			consequat. </p>
 
 			<p>
-				<a class="button small" href="#">Read More ...</a>
+				<a class="button secondary round small" href="#">Read More ...</a>
 			</p>
 		</article>
 
@@ -44,7 +44,7 @@
 			consequat. </p>
 
 			<p>
-				<a class="button small" href="#">Read More ...</a>
+				<a class="button secondary round small" href="#">Read More ...</a>
 			</p>
 		</article>
 	
@@ -60,7 +60,7 @@
 			consequat.</p>
 
 			<p>
-				<a class="button small" href="#">Read More ...</a>
+				<a class="button secondary round small" href="#">Read More ...</a>
 			</p>
 		</article>
 		
@@ -100,8 +100,11 @@
 	
 				</article> <!-- blog-index-block-content row Ends -->
 				
-			
 		</div> <!-- blog-index-item row Ends -->
+
+</section> <!-- blog-index-block Ends -->
+		
+<section class="blog-index-block">
 	
 		<div class="blog-index-item row">
 	
@@ -130,6 +133,9 @@
 				
 			
 		</div> <!-- blog-index-item row Ends -->
+</section> <!-- blog-index-block Ends -->
+
+<section class="blog-index-block">
 	
 		<div class="blog-index-item row">
 	

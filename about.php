@@ -30,26 +30,29 @@
 	
 <section class="row featured-article-block">
 	
-	<div class="front-widget widget-left small-12 medium-4 large-4 columns">
+	<div class="front-widget widget-left small-12 medium-6 large-6 columns">
 
 		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
+			<h3>OUR HISTORY</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. </p>
 
 			<p>
-				<a class="button round small" href="#">Read More ...</a>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
 			</p>
 		</article>
 
 	</div>
 
-	<div class="front-widget widget-center small-12 medium-4 large-4 columns">
+	<div class="front-widget widget-center small-12 medium-6 large-6 columns">
 		
 		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
+			<h3>OUR GOALS</h3>
 			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -57,27 +60,13 @@
 			consequat. </p>
 
 			<p>
-				<a class="button round small" href="#">Read More ...</a>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
 			</p>
 		</article>
 	
-	</div>
-
-	<div class="front-widget widget-right small-12 medium-4 large-4 columns">
-		
-		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
-
-			<p>
-				<a class="button round small" href="#">Read More ...</a>
-			</p>
-		</article>
-		
 	</div>
 
 </section>  <!-- featured-article-block Ends -->
@@ -85,29 +74,35 @@
 <section class="blog-index-block">
 
 		<div class="blog-index-item row">
-	
+
+				<h3 class="text-center">THE TEAM</h3>
 	
 				<article class="blog-index-block-content">
 	
-					<div class="small-12 medium-4 large-4 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/1"></a>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
+						<p>
+							<a class="button small" href="#">Go To Profile ...</a>
+						</p>
 					</div>
 	
-					<div class="small-12 medium-8 large-8 columns">
-	
-						<h3><a href="#">Article Title</a></h3>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<a class="button small" href="#">Go To Profile ...</a>
 						</p>
+					</div>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a>
 						<p>
-							<a class="button small" href="#">Read More ...</a>
+							<a class="button small" href="#">Go To Profile ...</a>
+						</p>
+					</div>
+	
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a>
+						<p>
+							<a class="button small" href="#">Go To Profile ...</a>
 						</p>
 					</div>
 	
@@ -127,7 +122,7 @@
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
-						<h3><a href="#">Article Title</a></h3>
+						<h3 class="text-center">OUR POLICY</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -138,8 +133,8 @@
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<p>
-							<a class="button small" href="#">Read More ...</a>
+						<p class="text-center">
+							<a class="button small round" href="#">Read More ...</a>
 						</p>
 					</div>
 	
@@ -156,25 +151,14 @@
 	
 				<article class="blog-index-block-content">
 	
-					<div class="small-12 medium-4 large-4 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/2"></a>
-					</div>
+					<div class="small-12 medium-12 large-12 columns">
 	
-					<div class="small-12 medium-8 large-8 columns">
-	
-						<h3><a href="#">Article Title</a></h3>
+						<h3 class="text-center"><a href="#">OUR PARTNERS</a></h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<a href="#"><img src="http://lorempixel.com/950/300/nature/2"></a>
 						</p>
-						<p>
-							<a class="button small" href="#">Read More ...</a>
+						<p class=" text-center">
+							<a class="button small round" href="#">Slider Go Here</a>
 						</p>
 					</div>
 	

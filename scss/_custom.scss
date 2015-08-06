@@ -31,7 +31,7 @@ a {
 header {
 	padding-top: 2em;
 	padding-bottom: 2em;
-	color: lighten( grey, 25% );
+	color: lighten( grey, 30% );
 
 	h1 {
 		color: lighten( orange, 10% );
@@ -65,7 +65,7 @@ header {
 		padding-bottom: .1em;
 		margin-bottom: 1em;
 		// opacity: .8em;
-		color: lighten( grey, 25% );
+		color: lighten( grey, 30% );
 
 		h3 {
 			// color: lighten( blue, 30% );
@@ -74,6 +74,45 @@ header {
 		}
 	}
 }
+
+.img-testimonial {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.fronpage-testimonial-item {
+	
+	h3 {
+		color: black;
+		// border: 1px solid blue;
+	}
+
+	.frontpage-testimonial-content {
+		background-color: transparent;
+			border: 1px solid black;
+			border-radius: 10%;
+
+
+		blockquote {
+			background-color: black;
+			padding: 2em;
+			color: darken( $secondary-color, 20% );
+			padding-top: 2em;
+
+			img {
+				padding-right: 1em;
+			}
+			cite {
+				color: darken( $secondary-color, 30% );
+
+			}
+		}
+	}
+}
+
+
+
+
 
 .blog-index-block {
 	margin-top: 2em;
@@ -85,7 +124,7 @@ header {
 		margin-bottom: 1em;
 		padding-top: 1.5em;
 		// padding-left: .5em;
-		color: lighten( grey, 25% );
+		color: lighten( grey, 30% );
 
 
 		h3 {
@@ -102,7 +141,7 @@ footer {
 	.copyright {
 
 		h6 {
-			color: darken( orange, 30%);
+			color: darken( orange, 50%);
 			font-weight: 900;
 
 		}

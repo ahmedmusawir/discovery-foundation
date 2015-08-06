@@ -26,7 +26,7 @@
 
 <main class="main-content">
 	
-<section class="row featured-article-block">
+<!-- <section class="row featured-article-block">
 	
 	<div class="front-widget widget-left small-12 medium-4 large-4 columns">
 
@@ -78,7 +78,7 @@
 		
 	</div>
 
-</section>  <!-- featured-article-block Ends -->
+</section> -->  <!-- featured-article-block Ends -->
 
 <section class="blog-index-block">
 

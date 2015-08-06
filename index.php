@@ -73,35 +73,32 @@
 <section class="blog-index-block">
 
 		<div class="blog-index-item row">
+
+				<h3 class="text-center">THE PORTFOLIO</h3>
 	
+				<article class="frontpage-portfolio">
 	
-				<article class="blog-index-block-content">
-	
-					<div class="small-12 medium-4 large-4 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/1"></a>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
 					</div>
 	
-					<div class="small-12 medium-8 large-8 columns">
-	
-						<h3><a href="#">Article Title</a></h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-						<p>
-							<a class="button small" href="#">Read More ...</a>
-						</p>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a>
+					</div>
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a>
 					</div>
 	
+					<div class="small-12 medium-3 large-3 columns">
+						<a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a>
+					</div>
 	
 				</article> <!-- blog-index-block-content row Ends -->
-				
+				<hr>
+				<div class="text-center">
+					<a class="button small" href="#">Go To Portfolio ...</a>
+				</div>
+			
 		</div> <!-- blog-index-item row Ends -->
 
 </section> <!-- blog-index-block Ends -->
@@ -115,18 +112,13 @@
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
-						<h3><a href="#">Article Title</a></h3>
+						<h3 class="text-center"><a href="#">This Is A Callout</a></h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<p>
+						<p class="text-center">
 							<a class="button small" href="#">Read More ...</a>
 						</p>
 					</div>
@@ -137,43 +129,47 @@
 		</div> <!-- blog-index-item row Ends -->
 </section> <!-- blog-index-block Ends -->
 
-<section class="blog-index-block">
 	
-		<div class="blog-index-item row">
-	
-	
-				<article class="blog-index-block-content">
-	
-					<div class="small-12 medium-4 large-4 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/2"></a>
-					</div>
-	
-					<div class="small-12 medium-8 large-8 columns">
-	
-						<h3><a href="#">Article Title</a></h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-						<p>
-							<a class="button small" href="#">Read More ...</a>
-						</p>
-					</div>
-	
-	
-				</article> <!-- blog-index-block-content row Ends -->
-				
-			
-		</div> <!-- blog-index-item row Ends -->
+<section class="fronpage-testimonial-item row">
 
-</section> <!-- blog-index-block Ends -->
+	<h3 class="text-center">TESTIMONIALS</h3>
 
+
+	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
+
+		<blockquote>
+		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/9">
+
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, <cite>Sam Harris, CEO Accelero LLC.</cite>
+		</blockquote>
+		
+	</div>
+	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
+
+		<blockquote>
+		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/6">
+
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, <cite>Sam Harris, CEO Accelero LLC.</cite>
+		</blockquote>
+		
+	</div>
+	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
+
+		<blockquote>
+		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/7">
+
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, <cite>Sam Harris, CEO Accelero LLC.</cite>
+		</blockquote>
+		
+	</div>
+	
+</section> <!-- blog-index-item row Ends -->
 
 
 </main>

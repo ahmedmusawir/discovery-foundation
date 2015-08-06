@@ -9468,7 +9468,7 @@ a img:hover {
 header {
   padding-top: 2em;
   padding-bottom: 2em;
-  color: silver;
+  color: #cdcdcd;
 }
 /* line 36, scss/_custom.scss */
 header h1 {
@@ -9491,7 +9491,7 @@ header .header-content {
   padding: 1em;
   padding-bottom: .1em;
   margin-bottom: 1em;
-  color: silver;
+  color: #cdcdcd;
 }
 /* line 70, scss/_custom.scss */
 .front-widget .front-widget-content h3 {
@@ -9499,38 +9499,70 @@ header .header-content {
 }
 
 /* line 78, scss/_custom.scss */
+.img-testimonial {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* line 85, scss/_custom.scss */
+.fronpage-testimonial-item h3 {
+  color: black;
+}
+/* line 90, scss/_custom.scss */
+.fronpage-testimonial-item .frontpage-testimonial-content {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+/* line 96, scss/_custom.scss */
+.fronpage-testimonial-item .frontpage-testimonial-content blockquote {
+  background-color: black;
+  padding: 2em;
+  color: #b4b4b4;
+  padding-top: 2em;
+}
+/* line 102, scss/_custom.scss */
+.fronpage-testimonial-item .frontpage-testimonial-content blockquote img {
+  padding-right: 1em;
+}
+/* line 105, scss/_custom.scss */
+.fronpage-testimonial-item .frontpage-testimonial-content blockquote cite {
+  color: #9b9b9b;
+}
+
+/* line 117, scss/_custom.scss */
 .blog-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 84, scss/_custom.scss */
+/* line 123, scss/_custom.scss */
 .blog-index-block .blog-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
-  color: silver;
+  color: #cdcdcd;
 }
-/* line 91, scss/_custom.scss */
+/* line 130, scss/_custom.scss */
 .blog-index-block .blog-index-item h3 {
   color: #ffc966;
 }
 
-/* line 104, scss/_custom.scss */
+/* line 143, scss/_custom.scss */
 footer .copyright h6 {
-  color: #664200;
+  color: black;
   font-weight: 900;
 }
-/* line 112, scss/_custom.scss */
+/* line 151, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
   background-color: black;
 }
-/* line 118, scss/_custom.scss */
+/* line 157, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 125, scss/_custom.scss */
+/* line 164, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
 }

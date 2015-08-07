@@ -9439,53 +9439,53 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 6, scss/_custom.scss */
+/* line 2, scss/_custom.scss */
 body {
-  background: url(images/bg-11.jpg) no-repeat center center fixed;
+  background: url(images/bg-14.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/* line 17, scss/_custom.scss */
+/* line 12, scss/_custom.scss */
 img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* line 23, scss/_custom.scss */
+/* line 18, scss/_custom.scss */
 a img {
   transition: 1s all ease-in-out;
 }
-/* line 26, scss/_custom.scss */
+/* line 21, scss/_custom.scss */
 a img:hover {
   opacity: .7;
 }
 
-/* line 31, scss/_custom.scss */
+/* line 26, scss/_custom.scss */
 header {
   padding-top: 2em;
   padding-bottom: 2em;
   color: #cdcdcd;
 }
-/* line 36, scss/_custom.scss */
+/* line 31, scss/_custom.scss */
 header h1 {
   color: #ffb733;
   text-shadow: 4px 4px 6px black;
 }
-/* line 42, scss/_custom.scss */
+/* line 37, scss/_custom.scss */
 header .header-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
 }
 
-/* line 56, scss/_custom.scss */
+/* line 51, scss/_custom.scss */
 .front-widget {
   background: transparent;
 }
-/* line 61, scss/_custom.scss */
+/* line 56, scss/_custom.scss */
 .front-widget .front-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9493,76 +9493,83 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 70, scss/_custom.scss */
+/* line 65, scss/_custom.scss */
 .front-widget .front-widget-content h3 {
   color: #ffc966;
 }
 
-/* line 78, scss/_custom.scss */
+/* line 73, scss/_custom.scss */
 .img-testimonial {
   width: 40%;
   border-radius: 50%;
 }
 
-/* line 85, scss/_custom.scss */
+/* line 80, scss/_custom.scss */
 .fronpage-testimonial-item h3 {
-  color: black;
+  color: #ffc966;
 }
-/* line 90, scss/_custom.scss */
+/* line 85, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content {
   background-color: transparent;
   border: 1px solid black;
   border-radius: 10%;
 }
-/* line 96, scss/_custom.scss */
+/* line 91, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote {
   background-color: black;
   padding: 2em;
   color: #b4b4b4;
   padding-top: 2em;
 }
-/* line 102, scss/_custom.scss */
+/* line 97, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote img {
   padding-right: 1em;
 }
-/* line 105, scss/_custom.scss */
+/* line 100, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote cite {
   color: #9b9b9b;
 }
 
-/* line 117, scss/_custom.scss */
+/* line 112, scss/_custom.scss */
 .blog-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 123, scss/_custom.scss */
+/* line 118, scss/_custom.scss */
 .blog-index-block .blog-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 130, scss/_custom.scss */
+/* line 125, scss/_custom.scss */
 .blog-index-block .blog-index-item h3 {
   color: #ffc966;
 }
 
-/* line 143, scss/_custom.scss */
-footer .copyright h6 {
-  color: black;
-  font-weight: 900;
-}
-/* line 151, scss/_custom.scss */
+/* line 137, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
+  margin-bottom: .5em;
   background-color: black;
 }
-/* line 157, scss/_custom.scss */
+/* line 144, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 164, scss/_custom.scss */
+/* line 151, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
+}
+/* line 158, scss/_custom.scss */
+footer .copyright {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 162, scss/_custom.scss */
+footer .copyright h6 {
+  color: orange;
+  font-weight: 900;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }

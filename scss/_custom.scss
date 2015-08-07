@@ -1,13 +1,8 @@
 // MY CUSTOM CSS
-html { 
- 
-}
-
 body {
 	// color: white;
 	// background-color: lighten( grey, 30% );
-  background: url(images/bg-11.jpg) no-repeat center center fixed; 
-  // background: url(images/bg-blue-blurry-street.jpg) no-repeat center center fixed; 
+  background: url(images/bg-14.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,7 +78,7 @@ header {
 .fronpage-testimonial-item {
 	
 	h3 {
-		color: black;
+		color: lighten( orange, 20% );
 		// border: 1px solid blue;
 	}
 
@@ -138,40 +133,40 @@ header {
 }
 
 footer {
-	.copyright {
-
-		h6 {
-			color: darken( orange, 50%);
-			font-weight: 900;
-
-		}
-
-	}
 
 	.footer-block {
-	margin-top: 2em;
-	// padding-top: 1em;
-	// background: transparent;
+		margin-top: 2em;
+		margin-bottom: .5em;
+		// padding-top: 1em;
+		// background: transparent;
 		background-color: rgba(0, 0, 0, 1);
 
-	.footer-widget-item {
-		// margin-bottom: 1em;
-		padding-top: 1.5em;
-		padding-left: .5em;
-		color: lighten( grey, 25% );
+		.footer-widget-item {
+			// margin-bottom: 1em;
+			padding-top: 1.5em;
+			padding-left: .5em;
+			color: lighten( grey, 25% );
 
 
-		h4 {
-			color: lighten( orange, 20% );
-			// color: lighten( blue, 30% );
+			h4 {
+				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+		}
+	}
+	.copyright {
+
+		background-color: rgba(0, 0, 0, .5);
+
+		h6 {
+			color: darken( orange, 0%);
+			font-weight: 900;
+			padding-bottom: 1em;
+			padding-top: 1em;
 
 		}
-
 	}
-
-
-}
-
 }
 
 

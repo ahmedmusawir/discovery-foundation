@@ -24,13 +24,15 @@
           <ul class="right">
             <li class="active"><a href="index.php">Home</a></li>
             <li class=""><a href="about.php">About</a></li>
+            <li class=""><a href="portfolio.php">Portfolio</a></li>
             <li class=""><a href="blog.php">Blog</a></li>
             <li class=""><a href="contact.php">Contact</a></li>
             <li class="has-dropdown">
               <a href="#">Sample Pages</a>
               <ul class="dropdown">
                 <li><a href="full-width-page.php">Full Width Page</a></li>
-                <li class="active"><a href="sidebar-page.php">Page w Sidebar</a></li>
+                <li><a href="sidebar-page.php">Page w Sidebar</a></li>
+                <li><a href="sidebar-single.php">Post w Sidebar</a></li>
               </ul>
             </li>
           </ul>

@@ -112,7 +112,7 @@
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
-						<h3 class="text-center"><a href="#">This Is A Callout</a></h3>
+						<h3 class="text-center">THIS IS A CALLOUT</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

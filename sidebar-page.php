@@ -1,7 +1,9 @@
 <?php include 'header.php' ?>
 <style type="text/css">
 	body {
-	  background: url(images/bg-21.jpg) no-repeat center center fixed; 
+	  background: url(images/bg-1.jpg) no-repeat center center fixed; 
+	  /*background: url(images/bg-16.jpg) no-repeat center center fixed; */
+	  /*background: url(images/bg-13.jpg) no-repeat center center fixed; */
 	  /*background: url(images/bg-19.jpg) no-repeat center center fixed; */
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;

@@ -71,13 +71,13 @@
 
 </section>  <!-- featured-article-block Ends -->
 
-<section class="blog-index-block">
+<section class="about-index-block">
 
-		<div class="blog-index-item row">
+		<div class="about-index-item row">
 
 				<h3 class="text-center">THE TEAM</h3>
 	
-				<article class="blog-index-block-content">
+				<article class="about-index-block-content">
 	
 					<div class="small-12 medium-3 large-3 columns">
 						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
@@ -107,18 +107,18 @@
 					</div>
 	
 	
-				</article> <!-- blog-index-block-content row Ends -->
+				</article> <!-- about-index-block-content row Ends -->
 				
-		</div> <!-- blog-index-item row Ends -->
+		</div> <!-- about-index-item row Ends -->
 
-</section> <!-- blog-index-block Ends -->
+</section> <!-- about-index-block Ends -->
 		
-<section class="blog-index-block">
+<section class="about-index-block">
 	
-		<div class="blog-index-item row">
+		<div class="about-index-item row">
 	
 	
-				<article class="blog-index-block-content">
+				<article class="about-index-block-content">
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
@@ -138,24 +138,44 @@
 						</p>
 					</div>
 	
-				</article> <!-- blog-index-block-content row Ends -->
+				</article> <!-- about-index-block-content row Ends -->
 				
 			
-		</div> <!-- blog-index-item row Ends -->
-</section> <!-- blog-index-block Ends -->
+		</div> <!-- about-index-item row Ends -->
+</section> <!-- about-index-block Ends -->
 
-<section class="blog-index-block">
+<section class="about-index-block">
 	
-		<div class="blog-index-item row">
+		<div class="about-index-item row">
 	
 	
-				<article class="blog-index-block-content">
+				<article class="about-index-block-content">
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
 						<h3 class="text-center"><a href="#">OUR PARTNERS</a></h3>
 						<p>
-							<a href="#"><img src="http://lorempixel.com/950/300/nature/2"></a>
+							<!-- <a href="#"><img src="http://lorempixel.com/950/300/nature/2"></a> -->
+							<ul class="example-orbit" data-orbit>
+							  <li>
+							    <img src="http://lorempixel.com/950/300/nature/2" alt="slide 1" />
+							    <div class="orbit-caption">
+							      Caption One.
+							    </div>
+							  </li>
+							  <li class="active">
+							    <img src="http://lorempixel.com/950/300/nature/3" alt="slide 2" />
+							    <div class="orbit-caption">
+							      Caption Two.
+							    </div>
+							  </li>
+							  <li>
+							    <img src="http://lorempixel.com/950/300/nature/4" alt="slide 3" />
+							    <div class="orbit-caption">
+							      Caption Three.
+							    </div>
+							  </li>
+							</ul>
 						</p>
 						<p class=" text-center">
 							<a class="button small round" href="#">Slider Go Here</a>
@@ -163,12 +183,12 @@
 					</div>
 	
 	
-				</article> <!-- blog-index-block-content row Ends -->
+				</article> <!-- about-index-block-content row Ends -->
 				
 			
-		</div> <!-- blog-index-item row Ends -->
+		</div> <!-- about-index-item row Ends -->
 
-</section> <!-- blog-index-block Ends -->
+</section> <!-- about-index-block Ends -->
 
 
 

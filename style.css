@@ -9554,23 +9554,76 @@ header .header-content {
   background-color: rgba(0, 0, 0, 0.7);
 }
 /* line 128, scss/_custom.scss */
-.blog-index-block .blog-index-item {
-  margin-bottom: 1em;
-  padding-top: 1.5em;
+.blog-index-block .blog-entry-footer {
+  padding-left: 1em;
+  padding-right: 1em;
+  background: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 135, scss/_custom.scss */
-.blog-index-block .blog-index-item h3 {
-  color: #ffc966;
+/* line 134, scss/_custom.scss */
+.blog-index-block .blog-entry-footer a:hover {
+  color: red;
 }
-/* line 141, scss/_custom.scss */
-.blog-index-block .blog-index-item h4 {
-  color: #ffc966;
+/* line 139, scss/_custom.scss */
+.blog-index-block .blog-entry-footer small {
+  font-size: 80%;
+  padding-left: 1em;
 }
-/* line 147, scss/_custom.scss */
-.blog-index-block .blog-index-item .text-only-content {
+/* line 153, scss/_custom.scss */
+.blog-index-block .blog-index-block-content {
+  color: #cdcdcd;
+}
+/* line 159, scss/_custom.scss */
+.blog-index-block .blog-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
+  padding-top: 1.5em;
+}
+/* line 165, scss/_custom.scss */
+.blog-index-block .blog-index-block-content .blog-index-item {
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+}
+/* line 170, scss/_custom.scss */
+.blog-index-block .blog-index-block-content .blog-index-item h3 {
+  color: #ffc966;
+}
+/* line 176, scss/_custom.scss */
+.blog-index-block .blog-index-block-content .blog-index-item h4 {
+  color: #ffc966;
+}
+
+/**
+*
+* About Styles
+*
+**/
+/* line 196, scss/_custom.scss */
+.about-index-block {
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+}
+/* line 202, scss/_custom.scss */
+.about-index-block h3 {
+  color: #ffc966;
+}
+/* line 208, scss/_custom.scss */
+.about-index-block h4 {
+  color: #ffc966;
+}
+/* line 218, scss/_custom.scss */
+.about-index-block .about-index-block-content {
+  color: #cdcdcd;
+}
+/* line 223, scss/_custom.scss */
+.about-index-block .about-index-block-content .text-only-content {
+  padding-left: 1.5em;
+  padding-right: 1em;
+  padding-top: 1.5em;
 }
 
 /**
@@ -9578,11 +9631,11 @@ header .header-content {
 * Portfolio Styles
 *
 **/
-/* line 163, scss/_custom.scss */
+/* line 260, scss/_custom.scss */
 .portfolio-widget {
   background: transparent;
 }
-/* line 168, scss/_custom.scss */
+/* line 265, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9590,72 +9643,72 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 177, scss/_custom.scss */
+/* line 274, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content h4 {
   color: #ffc966;
 }
-/* line 183, scss/_custom.scss */
+/* line 280, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content img {
   padding-bottom: 1.5em;
   padding-top: 1em;
 }
 
-/* line 190, scss/_custom.scss */
+/* line 287, scss/_custom.scss */
 .portfolio-index-block {
   margin-top: 2em;
   padding-top: 1em;
   padding-bottom: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 198, scss/_custom.scss */
+/* line 295, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 205, scss/_custom.scss */
+/* line 302, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item h5 {
   color: #ffc966;
   padding-top: 1em;
 }
-/* line 212, scss/_custom.scss */
+/* line 309, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item img {
   padding-top: 1em;
   transition: .7s all ease-in-out;
 }
-/* line 217, scss/_custom.scss */
+/* line 314, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item img:hover {
   width: 90%;
 }
 
-/* line 226, scss/_custom.scss */
+/* line 323, scss/_custom.scss */
 #portfolio-nav-bar {
   padding: 0;
   padding-bottom: -1em;
 }
 
 /* Footer Style */
-/* line 237, scss/_custom.scss */
+/* line 334, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
   margin-bottom: .5em;
   background-color: black;
 }
-/* line 244, scss/_custom.scss */
+/* line 341, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 251, scss/_custom.scss */
+/* line 348, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
 }
-/* line 258, scss/_custom.scss */
+/* line 355, scss/_custom.scss */
 footer .copyright {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 262, scss/_custom.scss */
+/* line 359, scss/_custom.scss */
 footer .copyright h6 {
   color: orange;
   font-weight: 900;
@@ -9668,31 +9721,50 @@ footer .copyright h6 {
 * Sidebar Styles
 *
 **/
-/* line 278, scss/_custom.scss */
+/* line 375, scss/_custom.scss */
 .sidebar-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 284, scss/_custom.scss */
+/* line 381, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 291, scss/_custom.scss */
+/* line 388, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h3 {
   color: #ffc966;
 }
-/* line 297, scss/_custom.scss */
+/* line 394, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h4 {
   color: #ffc966;
 }
-/* line 302, scss/_custom.scss */
+/* line 399, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content {
   padding-left: 1.5em;
 }
-/* line 304, scss/_custom.scss */
+/* line 401, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content img {
-  max-width: 100%;
-  width: 100%;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+}
+
+/**
+*
+* Widget Style
+*
+**/
+/* line 420, scss/_custom.scss */
+.widget ul {
+  padding-bottom: 2em;
+  padding-right: 1.5em;
+}
+/* line 424, scss/_custom.scss */
+.widget ul li {
+  border-bottom: 1px solid orange;
+}
+/* line 427, scss/_custom.scss */
+.widget ul li a:hover {
+  color: white;
 }

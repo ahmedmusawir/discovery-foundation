@@ -123,36 +123,133 @@ header {
 	margin-top: 2em;
 	// padding-top: 1em;
 	// background: transparent;
-		background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 
-	.blog-index-item {
-		margin-bottom: 1em;
-		padding-top: 1.5em;
-		// padding-left: .5em;
+	.blog-entry-footer {
+
+		padding-left: 1em;
+		padding-right: 1em;
+
+		a {
+			&:hover {
+				color: red;
+			}
+		}
+
+		small {
+			font-size: 80%;
+			padding-left: 1em;
+		}
+
+		// border: 1px solid blue;
+		background: black;
+		padding-top: 1em;
+		padding-bottom: 1em;
 		color: lighten( grey, 30% );
 
 
-		h3 {
-			color: lighten( orange, 20% );
-			// color: lighten( blue, 30% );
+	}
 
-		}
+	.blog-index-block-content {
 
-		h4 {
-			color: lighten( orange, 20% );
-			// color: lighten( blue, 30% );
+			// border: 1px solid red;
 
-		}
+		color: lighten( grey, 30% );
 
 		.text-only-content {
 			padding-left: 1.5em;			
-			padding-right: 1em;			
+			padding-right: 1em;	
+			padding-top: 1.5em;		
+		}
+
+		.blog-index-item {
+			margin-bottom: 1em;
+			padding-top: 1.5em;
+			// padding-left: .5em;
+
+			h3 {
+				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			h4 {
+				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			
 		}
 
 
 	}
 
 }
+
+/**
+*
+* About Styles
+*
+**/
+
+.about-index-block {
+	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
+	background-color: rgba(0, 0, 0, 0.7);
+			// border: 1px solid red;
+			h3 {
+				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			h4 {
+				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			margin-bottom: 1em;
+			padding-top: 1.5em;
+
+
+	.about-index-block-content {
+
+
+		color: lighten( grey, 30% );
+
+		.text-only-content {
+			padding-left: 1.5em;			
+			padding-right: 1em;	
+			padding-top: 1.5em;		
+		}
+
+		.about-index-item {
+			
+			// padding-left: .5em;
+
+			h3 {
+				// color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			h4 {
+				// color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			
+		}
+
+
+	}
+
+}
+
 
 /**
 *
@@ -302,11 +399,70 @@ footer {
 		.sidebar-index-block-content {
 			padding-left: 1.5em;
 			img {
-				max-width: 100%;
-				width: 100%; 
+				padding-right: 1.5em;
+				padding-bottom: 1em;
 			}
 		}
 
 	}
 
 }
+
+
+/**
+*
+* Widget Style
+*
+**/
+.widget {
+	// border: 1px solid red;
+
+	ul {
+		padding-bottom: 2em;
+		padding-right: 1.5em;
+
+		li {
+			border-bottom: 1px solid orange;
+
+			a:hover {
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

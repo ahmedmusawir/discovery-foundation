@@ -6,7 +6,7 @@
 	
 				<!-- <aside class="blog-index-block-content"> -->
 	
-					<aside class="small-12 medium-3 large-3 columns">
+					<aside class="small-12 medium-3 large-3 columns widget">
 						<h4>Widget Title</h4>
 						<ul class="no-bullet">
 							<li><a href="#">This is an Article Link</a></li>
@@ -16,7 +16,7 @@
 						</ul>
 					</aside>
 	
-					<aside class="small-12 medium-3 large-3 columns">
+					<aside class="small-12 medium-3 large-3 columns widget">
 	
 						<h4>Widget Title</h4>
 						<p>
@@ -25,7 +25,7 @@
 						</p>
 						
 					</aside>
-					<aside class="small-12 medium-3 large-3 columns">
+					<aside class="small-12 medium-3 large-3 columns widget">
 						<h4>Widget Title</h4>
 						<ul class="no-bullet">
 							<li><a href="#">This is an Article Link</a></li>
@@ -34,7 +34,7 @@
 							<li><a href="#">This is an Article Link</a></li>
 						</ul>
 					</aside>
-					<aside class="small-12 medium-3 large-3 columns">
+					<aside class="small-12 medium-3 large-3 columns widget">
 	
 						<h4>Widget Title</h4>
 						<p>

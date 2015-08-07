@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <header class="row">
   <div class="small-12 columns">
-    <h1><a href="#">PROFICIO</a></h1>
+    <h1 class="site-title"><a href="#">PROFICIO</a></h1>
     <div class="header-content">
 	    <p>
 			<a class="button alert small right" href="#">Read More ...</a>

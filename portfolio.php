@@ -1,7 +1,8 @@
 <?php include 'header.php' ?>
 <style type="text/css">
 	body {
-	  background: url(images/bg-2.jpg) no-repeat center center fixed; 
+	  background: url(images/bg-9.jpg) no-repeat center center fixed; 
+	  /*background: url(images/bg-2.jpg) no-repeat center center fixed; */
 	  /*background: url(images/bg-7.jpg) no-repeat center center fixed; */
 	  /*background: url(images/bg-14.jpg) no-repeat center center fixed; */
 	  -webkit-background-size: cover;
@@ -91,6 +92,7 @@
 		<article class="portfolio-index-block-content">
 
 			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+
 			  <li class="th"><!-- Your content goes here -->
 				<a href="#"><img src="http://lorempixel.com/200/100/abstract/1"></a>
 				<h5>Project Title</h5>
@@ -154,7 +156,7 @@
 
 		<article class="portfolio-index-block-content">
 	
-			<a class="button info small left small" href="#">Previous ...</a>
+			<a class="button info small left small" href="#">Prev ...</a>
 			<a class="button info small right small" href="#">Next ...</a>
 
 		</article> <!-- blog-index-block-content row Ends -->
@@ -164,16 +166,16 @@
 </section> <!-- blog-index-block Ends -->
 
 		
-<section class="blog-index-block">
+<section class="portfolio-index-block">
 	
-		<div class="blog-index-item row">
+		<div class="portfolio-index-item row">
 	
 	
-				<article class="blog-index-block-content">
+				<article class="portfolio-index-block-content">
 	
 					<div class="small-12 medium-12 large-12 columns">
 	
-						<h3><a href="#">Article Title</a></h3>
+						<h3><a href="#">Our Process</a></h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -5697,7 +5697,7 @@ ul.pagination li {
 /* Pricing Tables */
 /* line 139, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table {
-  border: solid 1px #DDDDDD;
+  border: solid 1px black;
   margin-left: 0;
   margin-bottom: 1.25rem;
 }
@@ -5718,8 +5718,8 @@ ul.pagination li {
 }
 /* line 143, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
-  background-color: #F6F6F6;
-  color: #333333;
+  background-color: #676767;
+  color: #ffb733;
   font-family: "Poiret One", cursive;
   font-size: 2rem;
   font-weight: normal;
@@ -5728,9 +5728,9 @@ ul.pagination li {
 }
 /* line 144, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
-  background-color: #FFFFFF;
+  background-color: transparent;
   border-bottom: dotted 1px #DDDDDD;
-  color: #777777;
+  color: #e6e6e6;
   font-size: 0.75rem;
   font-weight: normal;
   line-height: 1.4;
@@ -5739,9 +5739,9 @@ ul.pagination li {
 }
 /* line 145, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .bullet-item {
-  background-color: #FFFFFF;
+  background-color: transparent;
   border-bottom: dotted 1px #DDDDDD;
-  color: #333333;
+  color: #cdcdcd;
   font-size: 0.875rem;
   font-weight: normal;
   padding: 0.9375rem;
@@ -5749,7 +5749,7 @@ ul.pagination li {
 }
 /* line 146, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .cta-button {
-  background-color: #FFFFFF;
+  background-color: black;
   padding: 1.25rem 1.25rem 0;
   text-align: center;
 }

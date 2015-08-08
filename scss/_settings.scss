@@ -1023,6 +1023,7 @@ $accordion-content-active-bg-color: transparent;
 // $include-html-pricing-classes: $include-html-classes;
 
 // We use this to control the border color
+$price-table-border: solid 1px black;
 // $price-table-border: solid 1px $gainsboro;
 
 // We use this to control the bottom margin of the pricing table
@@ -1038,9 +1039,11 @@ $accordion-content-active-bg-color: transparent;
 // $price-title-font-family: $body-font-family;
 
 // We use these to control the price styles
+$price-money-bg: darken( $secondary-color, 10% );
 // $price-money-bg: $vapor;
 // $price-money-padding: rem-calc(15 20);
 // $price-money-align: center;
+$price-money-color: $primary-color;
 // $price-money-color: $oil;
 // $price-money-weight: $font-weight-normal;
 // $price-money-size: rem-calc(32);
@@ -1048,7 +1051,9 @@ $accordion-content-active-bg-color: transparent;
 
 
 // We use these to control the description styles
+$price-bg: transparent;
 // $price-bg: $white;
+$price-desc-color: lighten( $secondary-color, 40% );
 // $price-desc-color: $monsoon;
 // $price-desc-padding: rem-calc(15);
 // $price-desc-align: center;
@@ -1058,6 +1063,7 @@ $accordion-content-active-bg-color: transparent;
 // $price-desc-bottom-border: dotted 1px $gainsboro;
 
 // We use these to control the list item styles
+$price-item-color: lighten( $secondary-color, 30% );
 // $price-item-color: $oil;
 // $price-item-padding: rem-calc(15);
 // $price-item-align: center;
@@ -1066,6 +1072,7 @@ $accordion-content-active-bg-color: transparent;
 // $price-item-bottom-border: dotted 1px $gainsboro;
 
 // We use these to control the CTA area styles
+$price-cta-bg: black;
 // $price-cta-bg: $white;
 // $price-cta-align: center;
 // $price-cta-padding: rem-calc(20 20 0);

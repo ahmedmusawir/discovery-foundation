@@ -156,21 +156,55 @@
 	
 				<article class="frontpage-index-block-content">
 	
-					<div class="small-12 medium-12 large-12 columns">
+					<div class="small-12 medium-4 large-4 columns">
 	
-						<h3 class="text-center">THIS IS A CALLOUT</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						</p>
-						<p class="text-center">
-							<a class="button small" href="#">Read More ...</a>
-						</p>
+						<ul class="pricing-table">
+						  <li class="title">Standard</li>
+						  <li class="price">$99.99</li>
+						  <li class="description">An awesome description</li>
+						  <li class="bullet-item">1 Database</li>
+						  <li class="bullet-item">5GB Storage</li>
+						  <li class="bullet-item">20 Users</li>
+						  <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+						</ul>
+
 					</div>
 	
 				</article> <!-- blog-index-block-content row Ends -->
-				
+				<article class="frontpage-index-block-content">
+	
+					<div class="small-12 medium-4 large-4 columns">
+						
+						<ul class="pricing-table">
+						  <li class="title">Premium</li>
+						  <li class="price">$199.99</li>
+						  <li class="description">An awesome-er description</li>
+						  <li class="bullet-item">10 Database</li>
+						  <li class="bullet-item">50GB Storage</li>
+						  <li class="bullet-item">250 Users</li>
+						  <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+						</ul>
+						
+					</div>
+	
+				</article> <!-- blog-index-block-content row Ends -->
+				<article class="frontpage-index-block-content">
+	
+					<div class="small-12 medium-4 large-4 columns">
+						
+						<ul class="pricing-table">
+						  <li class="title">Business</li>
+						  <li class="price">$399.99</li>
+						  <li class="description">An awesome-est description</li>
+						  <li class="bullet-item">100 Database</li>
+						  <li class="bullet-item">150GB Storage</li>
+						  <li class="bullet-item">2000 Users</li>
+						  <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+						</ul>
+
+					</div>
+	
+				</article> <!-- blog-index-block-content row Ends -->
 			
 		</div> <!-- blog-index-item row Ends -->
 </section> <!-- blog-index-block Ends -->
@@ -216,6 +250,32 @@
 	</div>
 	
 </section> <!-- blog-index-item row Ends -->
+
+<section class="frontpage-index-block">
+	
+		<div class="frontpage-index-item row">
+	
+	
+				<article class="frontpage-index-block-content">
+	
+					<div class="small-12 medium-12 large-12 columns">
+	
+						<h3 class="text-center">THIS IS A CALLOUT</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						</p>
+						<p class="text-center">
+							<a class="button small" href="#">Read More ...</a>
+						</p>
+					</div>
+	
+				</article> <!-- blog-index-block-content row Ends -->
+				
+			
+		</div> <!-- blog-index-item row Ends -->
+</section> <!-- blog-index-block Ends -->
 
 
 </main>

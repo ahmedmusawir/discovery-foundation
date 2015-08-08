@@ -170,20 +170,6 @@
 			</article> <!-- blog-index-block-content row Ends -->
 
 		</article> <!-- blog-index-block Ends -->
-		<section id="blog-nav-bar" class="portfolio-index-block">
-			
-			<div class="blog-index-item">
-
-				<article class="blog-index-block-content">
-			
-					<a class="button info small left small" href="#">Prev ...</a>
-					<a class="button info small right small" href="#">Next ...</a>
-
-				</article> <!-- blog-index-block-content row Ends -->
-					
-			</div> <!-- blog-index-item row Ends -->
-
-		</section> <!-- blog-index-block Ends -->
 	</section>
 	<section class="medium-12 large-4 columns">
 

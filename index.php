@@ -78,7 +78,7 @@
 	
 				<article class="frontpage-portfolio">
 	
-					<div class="small-12 medium-3 large-3 columns">
+					<!-- <div class="small-12 medium-3 large-3 columns">
 						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
 					</div>
 	
@@ -91,6 +91,15 @@
 	
 					<div class="small-12 medium-3 large-3 columns">
 						<a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a>
+					</div> -->
+
+					<div class="frontpage-portfolio-slider">
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/7"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/8"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/9"></a></div>
 					</div>
 	
 				</article> <!-- blog-index-block-content row Ends -->

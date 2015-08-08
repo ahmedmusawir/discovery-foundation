@@ -9456,12 +9456,6 @@ body {
   font-weight: 900;
 }
 
-/* line 15, scss/_custom.scss */
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 @media (min-width: 480px) and (max-width: 640px) {
   /* line 15, scss/_custom.scss */
   img {
@@ -9470,27 +9464,27 @@ img {
   }
 }
 
-/* line 29, scss/_custom.scss */
+/* line 30, scss/_custom.scss */
 a img {
   transition: 1s all ease-in-out;
 }
-/* line 32, scss/_custom.scss */
+/* line 33, scss/_custom.scss */
 a img:hover {
   opacity: .7;
 }
 
-/* line 37, scss/_custom.scss */
+/* line 38, scss/_custom.scss */
 header {
   padding-top: 2em;
   padding-bottom: 2em;
   color: #cdcdcd;
 }
-/* line 42, scss/_custom.scss */
+/* line 43, scss/_custom.scss */
 header h1 {
   color: #ffb733;
   text-shadow: 4px 4px 6px black;
 }
-/* line 48, scss/_custom.scss */
+/* line 49, scss/_custom.scss */
 header .header-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9501,22 +9495,22 @@ header .header-content {
 * Frontpage Styles
 *
 **/
-/* line 68, scss/_custom.scss */
+/* line 69, scss/_custom.scss */
 .frontpage-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 77, scss/_custom.scss */
+/* line 84, scss/_custom.scss */
 .frontpage-index-block h3 {
   color: #ffc966;
 }
-/* line 83, scss/_custom.scss */
+/* line 90, scss/_custom.scss */
 .frontpage-index-block h4 {
   color: #ffc966;
 }
-/* line 89, scss/_custom.scss */
+/* line 96, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9525,46 +9519,46 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 95, scss/_custom.scss */
+/* line 102, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer a:hover {
   color: red;
 }
-/* line 100, scss/_custom.scss */
+/* line 107, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 114, scss/_custom.scss */
+/* line 121, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content {
   color: #cdcdcd;
 }
-/* line 120, scss/_custom.scss */
+/* line 127, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
   padding-top: 1.5em;
 }
-/* line 126, scss/_custom.scss */
+/* line 133, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content .frontpage-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
 
-/* line 137, scss/_custom.scss */
+/* line 147, scss/_custom.scss */
 #blog-nav-bar {
   padding-bottom: 0em;
   padding-top: 1em;
 }
-/* line 143, scss/_custom.scss */
+/* line 153, scss/_custom.scss */
 #blog-nav-bar a {
   margin-top: -2.4em;
 }
 
-/* line 148, scss/_custom.scss */
+/* line 158, scss/_custom.scss */
 .front-widget {
   background: transparent;
 }
-/* line 153, scss/_custom.scss */
+/* line 163, scss/_custom.scss */
 .front-widget .front-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9572,38 +9566,38 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 162, scss/_custom.scss */
+/* line 172, scss/_custom.scss */
 .front-widget .front-widget-content h3 {
   color: #ffc966;
 }
 
-/* line 172, scss/_custom.scss */
+/* line 182, scss/_custom.scss */
 .fronpage-testimonial-item h3 {
   color: #ffc966;
 }
-/* line 177, scss/_custom.scss */
+/* line 187, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content {
   background-color: transparent;
   border: 1px solid orange;
   border-radius: 10%;
 }
-/* line 183, scss/_custom.scss */
+/* line 193, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote {
   background-color: black;
   padding: 2em;
   color: #b3b3b3;
   padding-top: 2em;
 }
-/* line 189, scss/_custom.scss */
+/* line 199, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote img {
   padding-right: 1em;
 }
-/* line 192, scss/_custom.scss */
+/* line 202, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote cite {
   color: #9a9a9a;
 }
 
-/* line 199, scss/_custom.scss */
+/* line 209, scss/_custom.scss */
 .img-testimonial {
   width: 40%;
   border-radius: 50%;
@@ -9614,12 +9608,12 @@ header .header-content {
 * Blog Styles
 *
 **/
-/* line 210, scss/_custom.scss */
+/* line 220, scss/_custom.scss */
 .blog-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 216, scss/_custom.scss */
+/* line 226, scss/_custom.scss */
 .blog-index-block .blog-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9628,45 +9622,45 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 222, scss/_custom.scss */
+/* line 232, scss/_custom.scss */
 .blog-index-block .blog-entry-footer a:hover {
   color: red;
 }
-/* line 227, scss/_custom.scss */
+/* line 237, scss/_custom.scss */
 .blog-index-block .blog-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 241, scss/_custom.scss */
+/* line 251, scss/_custom.scss */
 .blog-index-block .blog-index-block-content {
   color: #cdcdcd;
 }
-/* line 247, scss/_custom.scss */
+/* line 257, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
   padding-top: 1.5em;
 }
-/* line 253, scss/_custom.scss */
+/* line 263, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 258, scss/_custom.scss */
+/* line 268, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item h3 {
   color: #ffc966;
 }
-/* line 264, scss/_custom.scss */
+/* line 274, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item h4 {
   color: #ffc966;
 }
 
-/* line 278, scss/_custom.scss */
+/* line 288, scss/_custom.scss */
 #blog-nav-bar {
   padding-bottom: 0em;
   padding-top: 1em;
 }
-/* line 284, scss/_custom.scss */
+/* line 294, scss/_custom.scss */
 #blog-nav-bar a {
   margin-top: -2.4em;
 }
@@ -9676,12 +9670,12 @@ header .header-content {
 * Single Post Page Styles
 *
 **/
-/* line 295, scss/_custom.scss */
+/* line 305, scss/_custom.scss */
 .single-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 301, scss/_custom.scss */
+/* line 311, scss/_custom.scss */
 .single-index-block .single-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9690,32 +9684,32 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 307, scss/_custom.scss */
+/* line 317, scss/_custom.scss */
 .single-index-block .single-entry-footer a:hover {
   color: red;
 }
-/* line 312, scss/_custom.scss */
+/* line 322, scss/_custom.scss */
 .single-index-block .single-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 326, scss/_custom.scss */
+/* line 336, scss/_custom.scss */
 .single-index-block .single-index-block-content {
   color: #cdcdcd;
 }
-/* line 332, scss/_custom.scss */
+/* line 342, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item {
   margin-bottom: 1em;
 }
-/* line 337, scss/_custom.scss */
+/* line 347, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item h3 {
   color: #ffc966;
 }
-/* line 343, scss/_custom.scss */
+/* line 353, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item h4 {
   color: #ffc966;
 }
-/* line 349, scss/_custom.scss */
+/* line 359, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item .single-content {
   padding-left: 2em;
   padding-right: 1.5em;
@@ -9728,12 +9722,12 @@ header .header-content {
 * /Fullwidht Page Styles
 *
 **/
-/* line 370, scss/_custom.scss */
+/* line 380, scss/_custom.scss */
 .fullpage-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 376, scss/_custom.scss */
+/* line 386, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9742,32 +9736,32 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 382, scss/_custom.scss */
+/* line 392, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer a:hover {
   color: red;
 }
-/* line 387, scss/_custom.scss */
+/* line 397, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 401, scss/_custom.scss */
+/* line 411, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content {
   color: #cdcdcd;
 }
-/* line 407, scss/_custom.scss */
+/* line 417, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item {
   margin-bottom: 1em;
 }
-/* line 412, scss/_custom.scss */
+/* line 422, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item h3 {
   color: #ffc966;
 }
-/* line 418, scss/_custom.scss */
+/* line 428, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item h4 {
   color: #ffc966;
 }
-/* line 424, scss/_custom.scss */
+/* line 434, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item .fullpage-content {
   padding-left: 2em;
   padding-right: 2em;
@@ -9780,26 +9774,26 @@ header .header-content {
 * About Styles
 *
 **/
-/* line 444, scss/_custom.scss */
+/* line 454, scss/_custom.scss */
 .about-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 450, scss/_custom.scss */
+/* line 460, scss/_custom.scss */
 .about-index-block h3 {
   color: #ffc966;
 }
-/* line 456, scss/_custom.scss */
+/* line 466, scss/_custom.scss */
 .about-index-block h4 {
   color: #ffc966;
 }
-/* line 466, scss/_custom.scss */
+/* line 476, scss/_custom.scss */
 .about-index-block .about-index-block-content {
   color: #cdcdcd;
 }
-/* line 471, scss/_custom.scss */
+/* line 481, scss/_custom.scss */
 .about-index-block .about-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
@@ -9811,11 +9805,11 @@ header .header-content {
 * Portfolio Styles
 *
 **/
-/* line 508, scss/_custom.scss */
+/* line 518, scss/_custom.scss */
 .portfolio-widget {
   background: transparent;
 }
-/* line 513, scss/_custom.scss */
+/* line 523, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9823,45 +9817,45 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 522, scss/_custom.scss */
+/* line 532, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content h4 {
   color: #ffc966;
 }
-/* line 528, scss/_custom.scss */
+/* line 538, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content img {
   padding-bottom: 1.5em;
   padding-top: 1em;
 }
 
-/* line 535, scss/_custom.scss */
+/* line 545, scss/_custom.scss */
 .portfolio-index-block {
   margin-top: 2em;
   padding-top: 1em;
   padding-bottom: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 543, scss/_custom.scss */
+/* line 553, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 550, scss/_custom.scss */
+/* line 560, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item h5 {
   color: #ffc966;
   padding-top: 1em;
 }
-/* line 557, scss/_custom.scss */
+/* line 567, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item img {
   padding-top: 1em;
   transition: .7s all ease-in-out;
 }
-/* line 562, scss/_custom.scss */
+/* line 572, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item img:hover {
   width: 90%;
 }
 
-/* line 571, scss/_custom.scss */
+/* line 581, scss/_custom.scss */
 #portfolio-nav-bar {
   padding: 0;
   padding-bottom: -1em;
@@ -9873,12 +9867,12 @@ header .header-content {
 * Contact Page Styles
 *
 **/
-/* line 584, scss/_custom.scss */
+/* line 594, scss/_custom.scss */
 .contact-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 590, scss/_custom.scss */
+/* line 600, scss/_custom.scss */
 .contact-index-block .contact-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9887,38 +9881,38 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 596, scss/_custom.scss */
+/* line 606, scss/_custom.scss */
 .contact-index-block .contact-entry-footer a:hover {
   color: red;
 }
-/* line 601, scss/_custom.scss */
+/* line 611, scss/_custom.scss */
 .contact-index-block .contact-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 615, scss/_custom.scss */
+/* line 625, scss/_custom.scss */
 .contact-index-block .contact-index-block-content {
   padding-top: 1.5em;
   padding-left: 1em;
   color: #cdcdcd;
 }
-/* line 620, scss/_custom.scss */
+/* line 630, scss/_custom.scss */
 .contact-index-block .contact-index-block-content .tab-title {
   border-bottom: 1px solid #343434;
 }
-/* line 627, scss/_custom.scss */
+/* line 637, scss/_custom.scss */
 .contact-index-block .contact-index-block-content h3 {
   color: #ffc966;
 }
-/* line 633, scss/_custom.scss */
+/* line 643, scss/_custom.scss */
 .contact-index-block .contact-index-block-content h4 {
   color: #ffc966;
 }
-/* line 640, scss/_custom.scss */
+/* line 650, scss/_custom.scss */
 .contact-index-block .contact-index-block-content .contact-index-item {
   margin-bottom: 1em;
 }
-/* line 644, scss/_custom.scss */
+/* line 654, scss/_custom.scss */
 .contact-index-block .contact-index-block-content .contact-index-item .contact-content {
   padding-left: 2em;
   padding-right: 2em;
@@ -9926,11 +9920,11 @@ header .header-content {
   padding-bottom: 2em;
 }
 
-/* line 659, scss/_custom.scss */
+/* line 669, scss/_custom.scss */
 .contact-widget {
   background: transparent;
 }
-/* line 664, scss/_custom.scss */
+/* line 674, scss/_custom.scss */
 .contact-widget .contact-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9938,15 +9932,15 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 673, scss/_custom.scss */
+/* line 683, scss/_custom.scss */
 .contact-widget .contact-widget-content h3 {
   color: #ffc966;
 }
-/* line 680, scss/_custom.scss */
+/* line 690, scss/_custom.scss */
 .contact-widget .contact-widget-content form label {
   color: #cdcdcd;
 }
-/* line 685, scss/_custom.scss */
+/* line 695, scss/_custom.scss */
 .contact-widget .contact-widget-content i.fa {
   font-size: 150%;
   padding-right: .3em;
@@ -9957,27 +9951,27 @@ header .header-content {
 * Footer Style
 *
 **/
-/* line 707, scss/_custom.scss */
+/* line 717, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
   margin-bottom: .5em;
   background-color: black;
 }
-/* line 714, scss/_custom.scss */
+/* line 724, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 721, scss/_custom.scss */
+/* line 731, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
 }
-/* line 728, scss/_custom.scss */
+/* line 738, scss/_custom.scss */
 footer .copyright {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 732, scss/_custom.scss */
+/* line 742, scss/_custom.scss */
 footer .copyright h6 {
   color: orange;
   font-weight: 900;
@@ -9990,30 +9984,30 @@ footer .copyright h6 {
 * Sidebar Styles
 *
 **/
-/* line 748, scss/_custom.scss */
+/* line 758, scss/_custom.scss */
 .sidebar-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 754, scss/_custom.scss */
+/* line 764, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 761, scss/_custom.scss */
+/* line 771, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h3 {
   color: #ffc966;
 }
-/* line 767, scss/_custom.scss */
+/* line 777, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h4 {
   color: #ffc966;
 }
-/* line 772, scss/_custom.scss */
+/* line 782, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content {
   padding-left: 1.5em;
 }
-/* line 774, scss/_custom.scss */
+/* line 784, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content img {
   padding-right: 1.5em;
   padding-bottom: 1em;
@@ -10024,16 +10018,16 @@ footer .copyright h6 {
 * Widget Style
 *
 **/
-/* line 793, scss/_custom.scss */
+/* line 803, scss/_custom.scss */
 .widget ul {
   padding-bottom: 2em;
   padding-right: 1.5em;
 }
-/* line 797, scss/_custom.scss */
+/* line 807, scss/_custom.scss */
 .widget ul li {
   border-bottom: 1px solid orange;
 }
-/* line 800, scss/_custom.scss */
+/* line 810, scss/_custom.scss */
 .widget ul li a:hover {
   color: white;
 }

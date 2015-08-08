@@ -70,9 +70,9 @@
 
 </section>  <!-- featured-article-block Ends -->
 
-<section class="blog-index-block">
+<section class="frontpage-index-block">
 
-		<div class="blog-index-item row">
+		<div class="frontpage-index-item row">
 
 				<h3 class="text-center">THE PORTFOLIO</h3>
 	
@@ -103,12 +103,58 @@
 
 </section> <!-- blog-index-block Ends -->
 		
-<section class="blog-index-block">
+<section class="frontpage-index-block">
 	
-		<div class="blog-index-item row">
+		<div class="frontpage-index-item row">
 	
 	
-				<article class="blog-index-block-content">
+				<article class="frontpage-index-block-content">
+	
+					<div class="small-12 medium-12 large-12 columns">
+	
+						<h3 class="text-center">OUR SERVICES</h3>
+						<p>
+		
+							<!-- Also works with <dl>'s and <dt>'s in place of <ul>'s and <li>'s. --> 
+
+							<dl class="accordion" data-accordion>
+							  <dd class="accordion-navigation">
+							    <a class="text-center" href="#panel1b">Awesome Services One</a>
+							    <div id="panel1b" class="content active">
+							      Panel 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							    </div>
+							  </dd>
+							  <dd class="accordion-navigation">
+							    <a class="text-center" href="#panel2b">Awesome Services Two</a>
+							    <div id="panel2b" class="content">
+							      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							    </div>
+							  </dd>
+							  <dd class="accordion-navigation">
+							    <a class="text-center" href="#panel3b">Awesome Services Three</a>
+							    <div id="panel3b" class="content">
+							      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							    </div>
+							  </dd>
+							</dl>
+						</p>
+						<p class="text-center">
+							<a class="button small" href="#">Find Out More ...</a>
+						</p>
+					</div>
+	
+				</article> <!-- blog-index-block-content row Ends -->
+				
+			
+		</div> <!-- blog-index-item row Ends -->
+</section> <!-- blog-index-block Ends -->
+
+<section class="frontpage-index-block">
+	
+		<div class="frontpage-index-item row">
+	
+	
+				<article class="frontpage-index-block-content">
 	
 					<div class="small-12 medium-12 large-12 columns">
 	

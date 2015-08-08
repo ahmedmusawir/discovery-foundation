@@ -57,6 +57,86 @@ header {
 *
 **/
 
+.frontpage-index-block {
+	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
+	background-color: rgba(0, 0, 0, 0.7);
+		margin-bottom: 1em;
+			padding-top: 1.5em;
+
+
+	h3 {
+		color: lighten( orange, 20% );
+		// color: lighten( blue, 30% );
+
+	}
+
+	h4 {
+		color: lighten( orange, 20% );
+		// color: lighten( blue, 30% );
+
+	}
+
+	.frontpage-entry-footer {
+
+		padding-left: 1em;
+		padding-right: 1em;
+
+		a {
+			&:hover {
+				color: red;
+			}
+		}
+
+		small {
+			font-size: 80%;
+			padding-left: 1em;
+		}
+
+		// border: 1px solid blue;
+		background: black;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		color: lighten( grey, 30% );
+
+
+	}
+
+	.frontpage-index-block-content {
+
+			// border: 1px solid red;
+
+		color: lighten( grey, 30% );
+
+		.text-only-content {
+			padding-left: 1.5em;			
+			padding-right: 1em;	
+			padding-top: 1.5em;		
+		}
+
+		.frontpage-index-item {
+			margin-bottom: 1em;
+			padding-top: 1.5em;
+			// padding-left: .5em;
+		}
+
+
+	}
+
+}
+
+#blog-nav-bar {
+	// border: 1px solid red;
+	// padding: 0;
+	padding-bottom: 0em;
+	padding-top: 1em;
+
+	a {
+		margin-top: -2.4em;
+	}
+}
+
 .front-widget {
 	background: transparent;
 	// background-color: lighten( grey, 30% );
@@ -592,6 +672,21 @@ footer {
 				color: white;
 			}
 		}
+	}
+}
+
+/**
+*
+* The Accordion Styles
+*
+**/
+.accordion {
+
+		// border: 1px solid red;
+	
+	a {
+		// margin: 0 auto;
+		// border: 1px solid red;
 	}
 }
 

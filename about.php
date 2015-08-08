@@ -80,27 +80,31 @@
 				<article class="about-index-block-content">
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
+						<a href="#"><img src="http://fillmurray.com/300/300"></a>
+						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a> -->
 						<p>
 							<a class="button small" href="#">Go To Profile ...</a>
 						</p>
 					</div>
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a>
+						<a href="#"><img src="http://fillmurray.com/g/300/300"></a>
+						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a> -->
 						<p>
 							<a class="button small" href="#">Go To Profile ...</a>
 						</p>
 					</div>
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a>
+						<a href="#"><img src="http://stevensegallery.com/300/300"></a>
+						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a> -->
 						<p>
 							<a class="button small" href="#">Go To Profile ...</a>
 						</p>
 					</div>
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a>
+						<a href="#"><img src="http://fillmurray.com/g/300/300"></a>
+						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a> -->
 						<p>
 							<a class="button small" href="#">Go To Profile ...</a>
 						</p>

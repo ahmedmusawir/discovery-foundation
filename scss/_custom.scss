@@ -16,7 +16,15 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+
+	@media (min-width:480px) and (max-width: 640px) {
+
+		width: 60%;
+		margin: 0 auto;
+	  
+	}
 }
+
 a {
 	img {
 		transition: 1s all ease-in-out;
@@ -569,6 +577,127 @@ header {
 
 /**
 *
+* Contact Page Styles
+*
+**/
+
+.contact-index-block {
+	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
+	background-color: rgba(0, 0, 0, 0.7);
+
+	.contact-entry-footer {
+
+		padding-left: 1em;
+		padding-right: 1em;
+
+		a {
+			&:hover {
+				color: red;
+			}
+		}
+
+		small {
+			font-size: 80%;
+			padding-left: 1em;
+		}
+
+		// border: 1px solid blue;
+		background: black;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		color: lighten( grey, 30% );
+
+
+	}
+
+	.contact-index-block-content {
+
+		padding-top: 1.5em;
+		padding-left: 1em;
+
+		.tab-title {
+			// border-bottom: 1px solid darken( $primary-color, 10% );
+			border-bottom: 1px solid darken( $secondary-color, 30% );
+		}
+
+		color: lighten( grey, 30% );
+
+		h3 {
+			color: lighten( orange, 20% );
+			// color: lighten( blue, 30% );
+
+		}
+
+		h4 {
+			color: lighten( orange, 20% );
+			// color: lighten( blue, 30% );
+
+		}
+
+
+		.contact-index-item {
+			margin-bottom: 1em;
+	
+
+			.contact-content {
+				padding-left: 2em;
+				padding-right: 2em;
+				padding-top: 1.5em;
+				padding-bottom: 2em;
+			}
+
+			
+		}
+
+
+	}
+
+}
+
+.contact-widget {
+	background: transparent;
+	// background-color: lighten( grey, 30% );
+	// width: 30%;
+	// margin-left: 2em;
+	.contact-widget-content {
+		// background-color: lighten( grey, 30% );
+		background-color:rgba(0, 0, 0, 0.5);
+		padding: 1em;
+		padding-bottom: .1em;
+		margin-bottom: 1em;
+		// opacity: .8em;
+		color: lighten( grey, 30% );
+
+		h3 {
+			// color: lighten( blue, 30% );
+			color: lighten( orange, 20% );
+
+		}
+
+		form {
+			label {
+				color: lighten( grey, 30% );
+			}
+		}
+
+		i.fa {
+			font-size: 150%;
+			padding-right: .3em;
+		}
+
+		.contact-phone-numbers {
+			// padding-top: 1em;
+			// padding-bottom: .5em;
+			// margin-bottom: .5em;
+			// border: 1px solid red;
+		}
+	}
+}
+
+/**
+*
 * Footer Style
 *
 **/
@@ -683,7 +812,7 @@ footer {
 .accordion {
 
 		// border: 1px solid red;
-	
+
 	a {
 		// margin: 0 auto;
 		// border: 1px solid red;

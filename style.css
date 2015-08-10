@@ -9443,6 +9443,8 @@ th.hide-for-touch {
 }
 /* line 4, scss/_custom.scss */
 body {
+  display: none;
+  background-color: #cdcdcd;
   background: url(images/bg-14.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9450,19 +9452,19 @@ body {
   background-size: cover;
 }
 
-/* line 13, scss/_custom.scss */
+/* line 14, scss/_custom.scss */
 .site-title {
   font-size: 500%;
   font-weight: 900;
 }
 
-/* line 34, scss/_custom.scss */
+/* line 35, scss/_custom.scss */
 a img {
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
-/* line 37, scss/_custom.scss */
+/* line 38, scss/_custom.scss */
 a img:hover {
   opacity: .5;
   border-radius: 50%;
@@ -9488,18 +9490,18 @@ a img:hover {
   transform-style: preserve-3d;
 }
 
-/* line 52, scss/_custom.scss */
+/* line 53, scss/_custom.scss */
 header {
   padding-top: 2em;
   padding-bottom: 2em;
   color: #cdcdcd;
 }
-/* line 57, scss/_custom.scss */
+/* line 58, scss/_custom.scss */
 header h1 {
   color: #ffb733;
   text-shadow: 4px 4px 6px black;
 }
-/* line 63, scss/_custom.scss */
+/* line 64, scss/_custom.scss */
 header .header-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9510,22 +9512,22 @@ header .header-content {
 * Frontpage Styles
 *
 **/
-/* line 83, scss/_custom.scss */
+/* line 88, scss/_custom.scss */
 .frontpage-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 98, scss/_custom.scss */
+/* line 105, scss/_custom.scss */
 .frontpage-index-block h3 {
   color: #ffc966;
 }
-/* line 104, scss/_custom.scss */
+/* line 111, scss/_custom.scss */
 .frontpage-index-block h4 {
   color: #ffc966;
 }
-/* line 110, scss/_custom.scss */
+/* line 117, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9534,46 +9536,46 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 116, scss/_custom.scss */
+/* line 123, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer a:hover {
   color: red;
 }
-/* line 121, scss/_custom.scss */
+/* line 128, scss/_custom.scss */
 .frontpage-index-block .frontpage-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 135, scss/_custom.scss */
+/* line 142, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content {
   color: #cdcdcd;
 }
-/* line 141, scss/_custom.scss */
+/* line 148, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
   padding-top: 1.5em;
 }
-/* line 147, scss/_custom.scss */
+/* line 154, scss/_custom.scss */
 .frontpage-index-block .frontpage-index-block-content .frontpage-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
 
-/* line 159, scss/_custom.scss */
+/* line 166, scss/_custom.scss */
 #blog-nav-bar {
   padding-bottom: 0em;
   padding-top: 1em;
 }
-/* line 165, scss/_custom.scss */
+/* line 172, scss/_custom.scss */
 #blog-nav-bar a {
   margin-top: -2.4em;
 }
 
-/* line 170, scss/_custom.scss */
+/* line 177, scss/_custom.scss */
 .front-widget {
   background: transparent;
 }
-/* line 175, scss/_custom.scss */
+/* line 182, scss/_custom.scss */
 .front-widget .front-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9581,38 +9583,38 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 184, scss/_custom.scss */
+/* line 191, scss/_custom.scss */
 .front-widget .front-widget-content h3 {
   color: #ffc966;
 }
 
-/* line 194, scss/_custom.scss */
+/* line 201, scss/_custom.scss */
 .fronpage-testimonial-item h3 {
   color: #ffc966;
 }
-/* line 199, scss/_custom.scss */
+/* line 206, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content {
   background-color: transparent;
   border: 1px solid orange;
   border-radius: 10%;
 }
-/* line 205, scss/_custom.scss */
+/* line 212, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote {
   background-color: black;
   padding: 2em;
   color: #b3b3b3;
   padding-top: 2em;
 }
-/* line 211, scss/_custom.scss */
+/* line 218, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote img {
   padding-right: 1em;
 }
-/* line 214, scss/_custom.scss */
+/* line 221, scss/_custom.scss */
 .fronpage-testimonial-item .frontpage-testimonial-content blockquote cite {
   color: #9a9a9a;
 }
 
-/* line 221, scss/_custom.scss */
+/* line 228, scss/_custom.scss */
 .img-testimonial {
   width: 40%;
   border-radius: 50%;
@@ -9623,12 +9625,12 @@ header .header-content {
 * Blog Styles
 *
 **/
-/* line 232, scss/_custom.scss */
+/* line 239, scss/_custom.scss */
 .blog-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 238, scss/_custom.scss */
+/* line 245, scss/_custom.scss */
 .blog-index-block .blog-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9637,45 +9639,45 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 244, scss/_custom.scss */
+/* line 251, scss/_custom.scss */
 .blog-index-block .blog-entry-footer a:hover {
   color: red;
 }
-/* line 249, scss/_custom.scss */
+/* line 256, scss/_custom.scss */
 .blog-index-block .blog-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 263, scss/_custom.scss */
+/* line 270, scss/_custom.scss */
 .blog-index-block .blog-index-block-content {
   color: #cdcdcd;
 }
-/* line 269, scss/_custom.scss */
+/* line 276, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
   padding-top: 1.5em;
 }
-/* line 275, scss/_custom.scss */
+/* line 282, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 280, scss/_custom.scss */
+/* line 287, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item h3 {
   color: #ffc966;
 }
-/* line 286, scss/_custom.scss */
+/* line 293, scss/_custom.scss */
 .blog-index-block .blog-index-block-content .blog-index-item h4 {
   color: #ffc966;
 }
 
-/* line 300, scss/_custom.scss */
+/* line 307, scss/_custom.scss */
 #blog-nav-bar {
   padding-bottom: 0em;
   padding-top: 1em;
 }
-/* line 306, scss/_custom.scss */
+/* line 313, scss/_custom.scss */
 #blog-nav-bar a {
   margin-top: -2.4em;
 }
@@ -9685,12 +9687,12 @@ header .header-content {
 * Single Post Page Styles
 *
 **/
-/* line 317, scss/_custom.scss */
+/* line 324, scss/_custom.scss */
 .single-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 323, scss/_custom.scss */
+/* line 330, scss/_custom.scss */
 .single-index-block .single-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9699,32 +9701,32 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 329, scss/_custom.scss */
+/* line 336, scss/_custom.scss */
 .single-index-block .single-entry-footer a:hover {
   color: red;
 }
-/* line 334, scss/_custom.scss */
+/* line 341, scss/_custom.scss */
 .single-index-block .single-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 348, scss/_custom.scss */
+/* line 355, scss/_custom.scss */
 .single-index-block .single-index-block-content {
   color: #cdcdcd;
 }
-/* line 354, scss/_custom.scss */
+/* line 361, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item {
   margin-bottom: 1em;
 }
-/* line 359, scss/_custom.scss */
+/* line 366, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item h3 {
   color: #ffc966;
 }
-/* line 365, scss/_custom.scss */
+/* line 372, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item h4 {
   color: #ffc966;
 }
-/* line 371, scss/_custom.scss */
+/* line 378, scss/_custom.scss */
 .single-index-block .single-index-block-content .single-index-item .single-content {
   padding-left: 2em;
   padding-right: 1.5em;
@@ -9737,12 +9739,12 @@ header .header-content {
 * /Fullwidht Page Styles
 *
 **/
-/* line 392, scss/_custom.scss */
+/* line 399, scss/_custom.scss */
 .fullpage-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 398, scss/_custom.scss */
+/* line 405, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9751,32 +9753,32 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 404, scss/_custom.scss */
+/* line 411, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer a:hover {
   color: red;
 }
-/* line 409, scss/_custom.scss */
+/* line 416, scss/_custom.scss */
 .fullpage-index-block .fullpage-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 423, scss/_custom.scss */
+/* line 430, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content {
   color: #cdcdcd;
 }
-/* line 429, scss/_custom.scss */
+/* line 436, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item {
   margin-bottom: 1em;
 }
-/* line 434, scss/_custom.scss */
+/* line 441, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item h3 {
   color: #ffc966;
 }
-/* line 440, scss/_custom.scss */
+/* line 447, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item h4 {
   color: #ffc966;
 }
-/* line 446, scss/_custom.scss */
+/* line 453, scss/_custom.scss */
 .fullpage-index-block .fullpage-index-block-content .fullpage-index-item .fullpage-content {
   padding-left: 2em;
   padding-right: 2em;
@@ -9789,26 +9791,26 @@ header .header-content {
 * About Styles
 *
 **/
-/* line 466, scss/_custom.scss */
+/* line 473, scss/_custom.scss */
 .about-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 1em;
   padding-top: 1.5em;
 }
-/* line 472, scss/_custom.scss */
+/* line 479, scss/_custom.scss */
 .about-index-block h3 {
   color: #ffc966;
 }
-/* line 478, scss/_custom.scss */
+/* line 485, scss/_custom.scss */
 .about-index-block h4 {
   color: #ffc966;
 }
-/* line 488, scss/_custom.scss */
+/* line 495, scss/_custom.scss */
 .about-index-block .about-index-block-content {
   color: #cdcdcd;
 }
-/* line 493, scss/_custom.scss */
+/* line 500, scss/_custom.scss */
 .about-index-block .about-index-block-content .text-only-content {
   padding-left: 1.5em;
   padding-right: 1em;
@@ -9820,11 +9822,11 @@ header .header-content {
 * Portfolio Styles
 *
 **/
-/* line 530, scss/_custom.scss */
+/* line 537, scss/_custom.scss */
 .portfolio-widget {
   background: transparent;
 }
-/* line 535, scss/_custom.scss */
+/* line 542, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9832,40 +9834,40 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 544, scss/_custom.scss */
+/* line 551, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content h4 {
   color: #ffc966;
 }
-/* line 550, scss/_custom.scss */
+/* line 557, scss/_custom.scss */
 .portfolio-widget .portfolio-widget-content img {
   padding-bottom: 1.5em;
   padding-top: 1em;
 }
 
-/* line 557, scss/_custom.scss */
+/* line 564, scss/_custom.scss */
 .portfolio-index-block {
   margin-top: 2em;
   padding-top: 1em;
   padding-bottom: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 565, scss/_custom.scss */
+/* line 572, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 572, scss/_custom.scss */
+/* line 579, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item h5 {
   color: #ffc966;
   padding-top: 1em;
 }
-/* line 578, scss/_custom.scss */
+/* line 585, scss/_custom.scss */
 .portfolio-index-block .portfolio-index-item img {
   padding-top: 1em;
 }
 
-/* line 589, scss/_custom.scss */
+/* line 596, scss/_custom.scss */
 #portfolio-nav-bar {
   padding: 0;
   padding-bottom: -1em;
@@ -9877,12 +9879,12 @@ header .header-content {
 * Contact Page Styles
 *
 **/
-/* line 602, scss/_custom.scss */
+/* line 609, scss/_custom.scss */
 .contact-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 608, scss/_custom.scss */
+/* line 615, scss/_custom.scss */
 .contact-index-block .contact-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9891,48 +9893,48 @@ header .header-content {
   padding-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 614, scss/_custom.scss */
+/* line 621, scss/_custom.scss */
 .contact-index-block .contact-entry-footer a:hover {
   color: red;
 }
-/* line 619, scss/_custom.scss */
+/* line 626, scss/_custom.scss */
 .contact-index-block .contact-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 632, scss/_custom.scss */
+/* line 639, scss/_custom.scss */
 .contact-index-block .contact-index-item {
   margin-bottom: 1em;
   padding-bottom: 2em;
 }
-/* line 637, scss/_custom.scss */
+/* line 644, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content {
   padding-top: 1.5em;
   padding-left: 1em;
   color: #cdcdcd;
 }
-/* line 645, scss/_custom.scss */
+/* line 652, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content .social-box i.fa:hover {
   color: white;
 }
-/* line 652, scss/_custom.scss */
+/* line 659, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content .tab-title {
   border-bottom: 1px solid #343434;
 }
-/* line 659, scss/_custom.scss */
+/* line 666, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content h3 {
   color: #ffc966;
 }
-/* line 665, scss/_custom.scss */
+/* line 672, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content h4 {
   color: #ffc966;
 }
 
-/* line 677, scss/_custom.scss */
+/* line 684, scss/_custom.scss */
 .contact-widget {
   background: transparent;
 }
-/* line 682, scss/_custom.scss */
+/* line 689, scss/_custom.scss */
 .contact-widget .contact-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -9940,15 +9942,15 @@ header .header-content {
   margin-bottom: 1em;
   color: #cdcdcd;
 }
-/* line 691, scss/_custom.scss */
+/* line 698, scss/_custom.scss */
 .contact-widget .contact-widget-content h3 {
   color: #ffc966;
 }
-/* line 698, scss/_custom.scss */
+/* line 705, scss/_custom.scss */
 .contact-widget .contact-widget-content form label {
   color: #cdcdcd;
 }
-/* line 703, scss/_custom.scss */
+/* line 710, scss/_custom.scss */
 .contact-widget .contact-widget-content i.fa {
   font-size: 150%;
   padding-right: .3em;
@@ -9959,27 +9961,27 @@ header .header-content {
 * Footer Style
 *
 **/
-/* line 725, scss/_custom.scss */
+/* line 732, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
   margin-bottom: .5em;
   background-color: black;
 }
-/* line 732, scss/_custom.scss */
+/* line 739, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 739, scss/_custom.scss */
+/* line 746, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
 }
-/* line 746, scss/_custom.scss */
+/* line 753, scss/_custom.scss */
 footer .copyright {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 750, scss/_custom.scss */
+/* line 757, scss/_custom.scss */
 footer .copyright h6 {
   color: orange;
   font-weight: 900;
@@ -9992,30 +9994,30 @@ footer .copyright h6 {
 * Sidebar Styles
 *
 **/
-/* line 766, scss/_custom.scss */
+/* line 773, scss/_custom.scss */
 .sidebar-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 772, scss/_custom.scss */
+/* line 779, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: #cdcdcd;
 }
-/* line 779, scss/_custom.scss */
+/* line 786, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h3 {
   color: #ffc966;
 }
-/* line 785, scss/_custom.scss */
+/* line 792, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h4 {
   color: #ffc966;
 }
-/* line 790, scss/_custom.scss */
+/* line 797, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content {
   padding-left: 1.5em;
 }
-/* line 792, scss/_custom.scss */
+/* line 799, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content img {
   padding-right: 1.5em;
   padding-bottom: 1em;
@@ -10026,16 +10028,16 @@ footer .copyright h6 {
 * Widget Style
 *
 **/
-/* line 811, scss/_custom.scss */
+/* line 818, scss/_custom.scss */
 .widget ul {
   padding-bottom: 2em;
   padding-right: 1.5em;
 }
-/* line 815, scss/_custom.scss */
+/* line 822, scss/_custom.scss */
 .widget ul li {
   border-bottom: 1px solid orange;
 }
-/* line 818, scss/_custom.scss */
+/* line 825, scss/_custom.scss */
 .widget ul li a:hover {
   color: white;
 }

@@ -2,8 +2,9 @@
 
 // MY CUSTOM CSS
 body {
-	// color: white;
-	// background-color: lighten( grey, 30% );
+
+  display: none;	
+  background-color: lighten( grey, 30% );
   background: url(images/bg-14.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -79,6 +80,10 @@ header {
 * Frontpage Styles
 *
 **/
+.front-widget {
+		// display: hidden;
+		// border: 1px solid red;
+}
 
 .frontpage-index-block {
 	margin-top: 2em;
@@ -87,6 +92,8 @@ header {
 	background-color: rgba(0, 0, 0, 0.7);
 	margin-bottom: 1em;
 	padding-top: 1.5em;
+
+	
 
 	.slick-slider {
 		// border: 1px solid red;

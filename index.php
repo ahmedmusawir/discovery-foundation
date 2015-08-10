@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
-<header class="row">
-  <div class="small-12 columns">
+<header class="row" >
+  <div class="small-12 columns wow slideInDown"  data-wow-duration="1.5s" data-wow-delay="0s">
     <h1 class="site-title"><a href="#"><i class="fa fa-line-chart"></i> PROFICIO</a></h1>
     <div class="header-content">
 	    <p>
@@ -16,11 +16,11 @@
 
 <main class="main-content">
 	
-<section class="row featured-article-block">
+<section class="row featured-article-block"  >
 	
-	<div class="front-widget widget-left small-12 medium-4 large-4 columns">
+	<div class="front-widget widget-left small-12 medium-4 large-4 columns  wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
 
-		<article class="front-widget-content">
+		<article class="front-widget-content ">
 			<h3><a href="#"><i class="fa fa-stack-overflow"></i> Expeditious</a></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -34,7 +34,7 @@
 
 	</div>
 
-	<div class="front-widget widget-center small-12 medium-4 large-4 columns">
+	<div class="front-widget widget-center small-12 medium-4 large-4 columns wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
 		
 		<article class="front-widget-content">
 			<h3><a href="#"><i class="fa fa-object-group"></i> Rhythmical</a></h3>
@@ -51,7 +51,7 @@
 	
 	</div>
 
-	<div class="front-widget widget-right small-12 medium-4 large-4 columns">
+	<div class="front-widget widget-right small-12 medium-4 large-4 columns wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0s">
 		
 		<article class="front-widget-content">
 			<h3><a href="#"><i class="fa fa-pagelines"></i> Spontaneous</a></h3>
@@ -62,7 +62,7 @@
 			consequat.</p>
 
 			<p>
-				<a class="button round small" href="#">Read More ...</a>
+				<a class="button round small " href="#">Read More ...</a>
 			</p>
 		</article>
 		
@@ -70,29 +70,14 @@
 
 </section>  <!-- featured-article-block Ends -->
 
-<section class="frontpage-index-block">
+<section class="frontpage-index-block wow zoomInUp" data-wow-duration="1.5s" data-wow-delay="0s">
 
-		<div class="frontpage-index-item row">
+		<div class="frontpage-index-item row" >
 
 				<h3 class="text-center">THE PORTFOLIO</h3>
 	
 				<article class="frontpage-portfolio">
 	
-					<!-- <div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a>
-					</div>
-	
-					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a>
-					</div>
-					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a>
-					</div>
-	
-					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a>
-					</div> -->
-
 					<div class="frontpage-portfolio-slider">
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a></div>
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a></div>
@@ -112,7 +97,7 @@
 
 </section> <!-- blog-index-block Ends -->
 		
-<section class="frontpage-index-block">
+<section class="frontpage-index-block wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s">
 	
 		<div class="frontpage-index-item row">
 	
@@ -158,7 +143,7 @@
 		</div> <!-- blog-index-item row Ends -->
 </section> <!-- blog-index-block Ends -->
 
-<section class="frontpage-index-block">
+<section class="frontpage-index-block  wow zoomIn" data-wow-duration="1s" data-wow-delay="0s">
 	
 		<div class="frontpage-index-item row">
 	
@@ -219,7 +204,7 @@
 </section> <!-- blog-index-block Ends -->
 
 	
-<section class="fronpage-testimonial-item row">
+<section class="fronpage-testimonial-item row  wow bounceInLeft" data-wow-duration="1s" data-wow-delay="1.5s">
 
 	<h3 class="text-center">TESTIMONIALS</h3>
 
@@ -260,7 +245,7 @@
 	
 </section> <!-- blog-index-item row Ends -->
 
-<section class="frontpage-index-block">
+<section class="frontpage-index-block  wow zoomInDown" data-wow-duration="2s" data-wow-delay="0s">
 	
 		<div class="frontpage-index-item row">
 	

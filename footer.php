@@ -53,7 +53,7 @@
 	</section> <!-- blog-index-block Ends -->
 	<section class="copyright"><h6 class="text-center">Proficio Copyright &copy; 2015</h6></section>
  </footer>
-   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>

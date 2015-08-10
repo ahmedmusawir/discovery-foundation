@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <header class="row" >
-  <div class="small-12 columns wow slideInDown"  data-wow-duration="1.5s" data-wow-delay="0s">
+  <div class="small-12 columns wow slideInDown"  data-wow-duration="1s" data-wow-delay="0s">
     <h1 class="site-title"><a href="#"><i class="fa fa-line-chart"></i> PROFICIO</a></h1>
     <div class="header-content">
 	    <p>

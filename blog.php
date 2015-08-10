@@ -12,7 +12,7 @@
 
 	}
 </style>
-<header class="row">
+<header class="row wow bounceInDown"  data-wow-duration="1s" data-wow-delay="1s">
   <div class="small-12 columns">
     <h1><a href="#">THE BLOG</a></h1>
     <div class="header-content">

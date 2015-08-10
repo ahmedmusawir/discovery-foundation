@@ -12,7 +12,7 @@
 	}
 </style>
 <header class="row">
-  <div class="small-12 columns">
+  <div class="small-12 columns wow bounceInDown"  data-wow-duration="1s" data-wow-delay="1s">
     <h1><a href="#">ABOUT US</a></h1>
     <div class="header-content">
 	    <p>
@@ -30,7 +30,7 @@
 	
 <section class="row featured-article-block">
 	
-	<div class="front-widget widget-left small-12 medium-6 large-6 columns">
+	<div class="front-widget widget-left small-12 medium-6 large-6 columns  wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
 
 		<article class="front-widget-content">
 			<h3><i class="fa fa-gg"></i> OUR HISTORY</h3>
@@ -49,7 +49,7 @@
 
 	</div>
 
-	<div class="front-widget widget-center small-12 medium-6 large-6 columns">
+	<div class="front-widget widget-center small-12 medium-6 large-6 columns  wow bounceInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
 		
 		<article class="front-widget-content">
 			<h3><i class="fa fa-codepen"></i> OUR GOALS</h3>
@@ -71,7 +71,7 @@
 
 </section>  <!-- featured-article-block Ends -->
 
-<section class="about-index-block">
+<section class="about-index-block wow zoomIn"  data-wow-duration="1.5s" data-wow-delay="0s">
 
 		<div class="about-index-item row">
 

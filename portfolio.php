@@ -12,7 +12,7 @@
 
 	}
 </style>
-<header class="row">
+<header class="row wow lightSpeedIn"  data-wow-duration="1s" data-wow-delay="1s">
   <div class="small-12 columns">
     <h1><a href="#">PORTFOLIO</a></h1>
     <div class="header-content">
@@ -29,9 +29,9 @@
 
 <main class="main-content">
 	
-<section class="row featured-portfolio-block">
+<section class="row featured-portfolio-block" >
 	
-	<div class="portfolio-widget widget-left small-12 medium-4 large-4 columns">
+	<div class="portfolio-widget widget-left small-12 medium-4 large-4 columns wow slideInDown"  data-wow-duration="1.5s" data-wow-delay="0s">
 
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-skyatlas"></i> Featued Project</a></h4>
@@ -48,7 +48,7 @@
 
 	</div>
 
-	<div class="portfolio-widget widget-center small-12 medium-4 large-4 columns">
+	<div class="portfolio-widget widget-center small-12 medium-4 large-4 columns wow slideInUp"  data-wow-duration="1.5s" data-wow-delay="0s">
 		
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-css3"></i> Featued Project</a></h4>
@@ -65,7 +65,7 @@
 	
 	</div>
 
-	<div class="portfolio-widget widget-right small-12 medium-4 large-4 columns">
+	<div class="portfolio-widget widget-right small-12 medium-4 large-4 columns wow slideInDown"  data-wow-duration="1.5s" data-wow-delay="0s">
 		
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-firefox"></i> Featued Project</a></h4>
@@ -84,7 +84,7 @@
 
 </section>  <!-- featured-article-block Ends -->
 
-<section class="portfolio-index-block">
+<section class="portfolio-index-block wow zoomIn"  data-wow-duration="1.5s" data-wow-delay="0s">
 
 	<div class="portfolio-index-item row">
 

@@ -18,7 +18,7 @@
 	
 <section class="row featured-article-block"  >
 	
-	<div class="front-widget widget-left small-12 medium-4 large-4 columns  wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
+	<div class="front-widget widget-left small-12 medium-4 large-4 columns  wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s">
 
 		<article class="front-widget-content ">
 			<h3><a href="#"><i class="fa fa-stack-overflow"></i> Expeditious</a></h3>
@@ -51,7 +51,7 @@
 	
 	</div>
 
-	<div class="front-widget widget-right small-12 medium-4 large-4 columns wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0s">
+	<div class="front-widget widget-right small-12 medium-4 large-4 columns wow slideInRight" data-wow-duration="1s" data-wow-delay="0s">
 		
 		<article class="front-widget-content">
 			<h3><a href="#"><i class="fa fa-pagelines"></i> Spontaneous</a></h3>
@@ -97,7 +97,7 @@
 
 </section> <!-- blog-index-block Ends -->
 		
-<section class="frontpage-index-block wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0s">
+<section class="frontpage-index-block wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s">
 	
 		<div class="frontpage-index-item row">
 	

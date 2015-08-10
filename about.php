@@ -33,7 +33,7 @@
 	<div class="front-widget widget-left small-12 medium-6 large-6 columns">
 
 		<article class="front-widget-content">
-			<h3>OUR HISTORY</h3>
+			<h3><i class="fa fa-gg"></i> OUR HISTORY</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -52,7 +52,7 @@
 	<div class="front-widget widget-center small-12 medium-6 large-6 columns">
 		
 		<article class="front-widget-content">
-			<h3>OUR GOALS</h3>
+			<h3><i class="fa fa-codepen"></i> OUR GOALS</h3>
 			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

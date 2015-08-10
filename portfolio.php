@@ -34,7 +34,7 @@
 	<div class="portfolio-widget widget-left small-12 medium-4 large-4 columns">
 
 		<article class="portfolio-widget-content">
-			<h4><a href="#">Featued Project Title</a></h4>
+			<h4><a href="#"><i class="fa fa-skyatlas"></i> Featued Project</a></h4>
 			
 			<a href="#"><img src="http://lorempixel.com/300/200/nature/1"></a>
 
@@ -51,7 +51,7 @@
 	<div class="portfolio-widget widget-center small-12 medium-4 large-4 columns">
 		
 		<article class="portfolio-widget-content">
-			<h4><a href="#">Featued Project Title</a></h4>
+			<h4><a href="#"><i class="fa fa-css3"></i> Featued Project</a></h4>
 
 			<a href="#"><img src="http://lorempixel.com/300/200/nature/3"></a>
 
@@ -68,7 +68,7 @@
 	<div class="portfolio-widget widget-right small-12 medium-4 large-4 columns">
 		
 		<article class="portfolio-widget-content">
-			<h4><a href="#">Featued Project Title</a></h4>
+			<h4><a href="#"><i class="fa fa-firefox"></i> Featued Project</a></h4>
 
 			<a href="#"><img src="http://lorempixel.com/300/200/nature/4"></a>
 

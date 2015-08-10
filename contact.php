@@ -249,6 +249,43 @@
 	</div> <!-- contact-index-item row Ends -->
 </section> <!-- contact-index-block Ends -->
 
+<section class="contact-index-block">
+	
+	<div class="contact-index-item row">
+
+
+		<article class="contact-index-block-content">
+			<div class="social-box">
+				<h3 class="text-center">Lets Socialize</h3>
+				<p>
+	
+					<div class="small-6 medium-3 large-3 columns text-center">
+
+						<h2><a href="#"><i class="fa fa-facebook"></i></a></h2>
+						
+					</div>
+					<div class="small-6 medium-3 large-3 columns text-center">
+
+						<h2><a href="#"><i class="fa fa-twitter"></i></a></h2>
+						
+					</div>
+					<div class="small-6 medium-3 large-3 columns text-center">
+
+						<h2><a href="#"><i class="fa fa-google-plus"></i></a></h2>
+						
+					</div>
+					<div class="small-6 medium-3 large-3 columns text-center">
+
+						<h2><a href="#"><i class="fa fa-instagram"></i></a></h2>
+						
+					</div>
+				</p>
+			</div>
+		</article> <!-- contact-index-block-content row Ends -->
+			
+		
+	</div> <!-- contact-index-item row Ends -->
+</section> <!-- contact-index-block Ends -->
 
 </main>
 

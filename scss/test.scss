@@ -1,0 +1,26 @@
+// @import "settings";
+// @import "foundation";
+@import "bourbon/bourbon";
+// @import "bourbon/css3";
+// @import "custom";
+
+img {
+
+
+// @include transition(opacity 1.0s ease-in 0s, width 2.0s ease-in 2s);
+@include transition(all 2.0s ease-in-out);
+
+
+		&:hover {
+			opacity: .7;
+			width: 50%; 
+			height: 120%;
+	// border: 1px solid red;
+	// border-radius: 50%;
+			@include transform(translateY(50px));
+			@include transform(scale(0.9) rotate(-3deg));
+			@include transform-origin(center top);
+			@include transform-style(preserve-3d);
+
+		}
+}

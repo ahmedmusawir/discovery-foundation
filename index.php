@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <header class="row">
   <div class="small-12 columns">
-    <h1 class="site-title"><a href="#">PROFICIO</a></h1>
+    <h1 class="site-title"><a href="#"><i class="fa fa-line-chart"></i> PROFICIO</a></h1>
     <div class="header-content">
 	    <p>
 			<a class="button alert small right" href="#">Read More ...</a>
@@ -21,7 +21,7 @@
 	<div class="front-widget widget-left small-12 medium-4 large-4 columns">
 
 		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
+			<h3><a href="#"><i class="fa fa-stack-overflow"></i> Expeditious</a></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -37,7 +37,7 @@
 	<div class="front-widget widget-center small-12 medium-4 large-4 columns">
 		
 		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
+			<h3><a href="#"><i class="fa fa-object-group"></i> Rhythmical</a></h3>
 			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -54,7 +54,7 @@
 	<div class="front-widget widget-right small-12 medium-4 large-4 columns">
 		
 		<article class="front-widget-content">
-			<h3><a href="#">Front Widget Title</a></h3>
+			<h3><a href="#"><i class="fa fa-pagelines"></i> Spontaneous</a></h3>
 			
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

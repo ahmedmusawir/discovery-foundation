@@ -16,6 +16,8 @@ body {
 } 
 img {
 
+	border: 1px solid red;
+
 	// display: block;
 	// width: 100%;
 	// max-width: 100%;
@@ -28,16 +30,12 @@ img {
 	  
 	// }
 
-}
-
-a {
-	img {
-		@include transition(all 2.0s ease-in-out);
-		
-		&:hover {
-		opacity: .5;
+	@include transition(all 2.0s ease-in-out);
+	
+	&:hover {
+		// opacity: .7;
 		// width: 50%; 
-		// height: 120%;
+		height: 120%;
 		border-radius: 50%;
 
 			@include transform(translateY(50px));
@@ -45,6 +43,13 @@ a {
 			@include transform-origin(center top);
 			@include transform-style(preserve-3d);
 	}
+}
+
+a {
+	img {
+		// @include transition(all 2.0s ease-in-out);
+		
+
 	
   }
 }
@@ -571,14 +576,18 @@ header {
 
 		h5 {
 			color: lighten( orange, 20% );
+			// color: lighten( blue, 30% );
 			padding-top: 1em;
 
 		}
 
 		img {
+			// padding-bottom: 1.5em;
 			padding-top: 1em;
+			// transition: 1s all ease-in-out;
 
 			&:hover {
+				// width: 50%;
 			}
 		}
 

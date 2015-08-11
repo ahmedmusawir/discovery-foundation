@@ -40,7 +40,7 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<img src="http://lorempixel.com/980/400/nature/7">
+							<img src="images/full-width-980x400.jpg">
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns fullpage-content">

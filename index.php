@@ -79,12 +79,21 @@
 				<article class="frontpage-portfolio">
 	
 					<div class="frontpage-portfolio-slider">
-					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a></div>
+					    <!-- <div><a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a></div>
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a></div>
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a></div>
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/7"></a></div>
 					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/8"></a></div>
-					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/9"></a></div>
+					    <div><a href="#"><img src="http://lorempixel.com/300/300/transport/9"></a></div> -->
+					    
+					    <div><a href="#"><img class="th" src="images/front-portfolio/front-folio-1.jpg"></a></div>
+					    <div><a href="#"><img class="th" src="images/front-portfolio/front-folio-2.jpg"></a></div>
+					    <div><a href="#"><img class="th" src="images/front-portfolio/front-folio-3.jpg"></a></div>
+					    <div><a href="#"><img class="th" src="images/front-portfolio/front-folio-4.jpg"></a></div>
+					    <div><a href="#"><img class="th" src="images/front-portfolio/front-folio-5.jpg"></a></div>
+
+
+
 					</div>
 	
 				</article> <!-- blog-index-block-content row Ends -->
@@ -212,7 +221,8 @@
 	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
 
 		<blockquote>
-		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/9">
+		<!-- <img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/9"> -->
+		<img class="round left img-testimonial" src="images/men/neil-2-300x300.jpg">
 
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -223,7 +233,9 @@
 	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
 
 		<blockquote>
-		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/6">
+		<!-- <img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/6"> -->
+		<img class="round left img-testimonial" src="images/men/dawkins-2-300x300.jpg">
+
 
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -234,7 +246,8 @@
 	<div class="small-12 medium-4 large-4 columns frontpage-testimonial-content">
 
 		<blockquote>
-		<img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/7">
+		<!-- <img class="round left img-testimonial" src="http://lorempixel.com/100/100/people/7"> -->
+		<img class="round left img-testimonial" src="images/men/sam-1-300x300.jpg">
 
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non

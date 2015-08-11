@@ -36,7 +36,7 @@
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-skyatlas"></i> Featued Project</a></h4>
 			
-			<a href="#"><img src="http://lorempixel.com/300/200/nature/1"></a>
+			<a href="#"><img class="" src="images/feature-portfolio/portfolio-featured-1-600x400.jpg"></a>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			. </p>
@@ -53,7 +53,9 @@
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-css3"></i> Featued Project</a></h4>
 
-			<a href="#"><img src="http://lorempixel.com/300/200/nature/3"></a>
+			<!-- <a href="#"><img src="http://lorempixel.com/300/200/nature/3"></a> -->
+			<a href="#"><img class="" src="images/feature-portfolio/portfolio-featured-2-600x400.jpg"></a>
+
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			. </p>
@@ -70,7 +72,9 @@
 		<article class="portfolio-widget-content">
 			<h4><a href="#"><i class="fa fa-firefox"></i> Featued Project</a></h4>
 
-			<a href="#"><img src="http://lorempixel.com/300/200/nature/4"></a>
+			<!-- <a href="#"><img src="http://lorempixel.com/300/200/nature/4"></a> -->
+			<a href="#"><img class="" src="images/feature-portfolio/portfolio-featured-3-600x400.jpg"></a>
+
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			.</p>
@@ -94,49 +98,49 @@
 			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/1"></a>
+				<a href="#"><img src="/images/grid/grid-1-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/2"></a>
+				<a href="#"><img src="/images/grid/grid-2-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/3"></a>
+				<a href="#"><img src="/images/grid/grid-3-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/4"></a>
+				<a href="#"><img src="/images/grid/grid-4-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/5"></a>
+				<a href="#"><img src="/images/grid/grid-5-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/6"></a>
+				<a href="#"><img src="/images/grid/grid-6-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/7"></a>
+				<a href="#"><img src="/images/grid/grid-7-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
 			  </li>
 			  <li class="th"><!-- Your content goes here -->
-				<a href="#"><img src="http://lorempixel.com/200/100/abstract/8"></a>
+				<a href="#"><img src="/images/grid/grid-8-300x200.jpg"></a>
 				<h5>Project Title</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptatum?</p>
 				<a href="#" class="button tiny secondary">Details ...</a>
@@ -156,8 +160,8 @@
 
 		<article class="portfolio-index-block-content">
 	
-			<a class="button info small left small" href="#">Prev ...</a>
-			<a class="button info small right small" href="#">Next ...</a>
+			<a class="button info small left small" href="#"><i class="fa fa-arrow-circle-left"></i></a>
+			<a class="button info small right small" href="#"><i class="fa fa-arrow-circle-right"></i></a>
 
 		</article> <!-- blog-index-block-content row Ends -->
 			

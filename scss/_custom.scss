@@ -558,9 +558,23 @@ header {
 }
 
 #portfolio-nav-bar {
-	padding: 0;
-	padding-bottom: -1em;
+
+	// border: 1px solid red;
 	background-color:rgba(0, 0, 0, 0.3);
+	a {
+		margin-top: -1.6em;
+		margin-bottom: -2.4em;
+		color: $primary-color;
+
+		i.fa {
+		  		font-size: 150%;
+		  		@include transition(all 1s ease-in-out);
+
+		  		&:hover {
+				@include transform(scale(1.5) rotate(360deg));
+		  		}
+		  	}	
+	}
 }
 
 /**

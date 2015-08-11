@@ -39,7 +39,7 @@
 
 
 						<div class="small-12 medium-4 large-4 columns">
-							<a href="#"><img src="http://lorempixel.com/300/300/transport/1"></a>
+							<a href="#"><img src="images/blog/car-300x300.jpg"></a>
 						</div>
 
 						<div class="small-12 medium-8 large-8 columns">
@@ -129,7 +129,7 @@
 
 
 					<div class="small-12 medium-4 large-4 columns">
-						<a href="#"><img src="http://lorempixel.com/300/300/transport/1"></a>
+						<a href="#"><img src="images/blog/ferrari-1-300x300.jpg"></a>
 					</div>
 
 					<div class="small-12 medium-8 large-8 columns">
@@ -241,7 +241,7 @@
 							<aside class="small-12 medium-12 large-12 columns widget">
 			
 								<h4><a href="#">Article Title</a></h4>
-								<a href="#"><img src="http://lorempixel.com/640/640/abstract/1"></a>
+								<a href="#"><img src="images/blog/lamborghini-650x650.jpg"></a>
 
 								<p>
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non

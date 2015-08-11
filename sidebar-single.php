@@ -53,7 +53,9 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<img src="http://lorempixel.com/650/350/abstract/1">
+							<img src="images/singles/single-2-650x350.jpg">
+							<!-- <img src="images/feature-portfolio/portfolio-featured-2-600x400.jpg"> -->
+
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns single-content">
@@ -151,7 +153,7 @@
 							<aside class="small-12 medium-12 large-12 columns widget">
 			
 								<h4><a href="#">Article Title</a></h4>
-								<a href="#"><img src="http://lorempixel.com/640/640/abstract/1"></a>
+								<a href="#"><img src="images/blog/lamborghini-650x650.jpg"></a>
 
 								<p>
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non

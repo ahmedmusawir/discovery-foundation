@@ -50,7 +50,8 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<img src="http://lorempixel.com/650/350/abstract/1">
+							<img src="images/singles/single-3-650x350.jpg">
+							<!-- <img src="images/feature-portfolio/portfolio-featured-4-600x400.jpg"> -->
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns portfolio-single-content">
@@ -177,12 +178,12 @@
 
 	
 					<div class="portfolio-slider">
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/3"></a></div>
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/4"></a></div>
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/6"></a></div>
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/7"></a></div>
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/8"></a></div>
-					    <div class="th"><a href="#"><img src="http://lorempixel.com/300/150/transport/9"></a></div>
+					    <div class="th"><a href="#"><img src="images/singles/single-1-650x350.jpg"></a></div>
+					    <div class="th"><a href="#"><img src="images/singles/single-2-650x350.jpg"></a></div>
+					    <div class="th"><a href="#"><img src="images/singles/single-3-650x350.jpg"></a></div>
+					  	<div class="th"><a href="#"><img src="images/singles/single-1-650x350.jpg"></a></div>
+					    <div class="th"><a href="#"><img src="images/singles/single-2-650x350.jpg"></a></div>
+					    <div class="th"><a href="#"><img src="images/singles/single-3-650x350.jpg"></a></div>
 					</div>
 	
 				</article> <!-- blog-index-block-content row Ends -->

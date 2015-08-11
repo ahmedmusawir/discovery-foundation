@@ -153,7 +153,7 @@
 								</div>
 								<div class="contact-tab-image small-12 medium-3 large-3 columns">
 
-									<a href="#"><img class="th" src="http://fillmurray.com/640/640"></a>
+									<a href="#"><img class="th" src="images/men/sam-1-650x650.jpg"></a>
 									
 								</div>
 
@@ -180,7 +180,7 @@
 								</div>
 								<div class="contact-tab-image small-12 medium-3 large-3 columns">
 
-									<a href="#"><img class="th" src="http://lorempixel.com/640/640/people/9"></a>
+									<a href="#"><img class="th" src="images/men/dawkins-1-650x650.jpg"></a>
 									
 								</div>
 
@@ -192,7 +192,7 @@
 
 					  	<article class="medium-offset-3 large-offset-3">
 			
-								<h4><a href="#">Echart Tolly</a></h4>
+								<h4><a href="#">Eckhart Tolly</a></h4>
 								<div class="contact-tab-text small-12 medium-9 large-9 columns">
 									<p>
 										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -206,7 +206,7 @@
 								</div>
 								<div class="contact-tab-image small-12 medium-3 large-3 columns">
 
-									<a href="#"><img class="th" src="http://lorempixel.com/640/640/people/6"></a>
+									<a href="#"><img class="th" src="images/men/eckhart-1-650x650.jpg"></a>
 									
 								</div>
 
@@ -232,7 +232,7 @@
 								</div>
 								<div class="contact-tab-image small-12 medium-3 large-3 columns">
 
-									<a href="#"><img class="th" src="http://lorempixel.com/640/640/people/7"></a>
+									<a href="#"><img class="th" src="images/men/neil-1-650x650.jpg"></a>
 									
 								</div>
 

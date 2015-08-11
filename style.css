@@ -9946,9 +9946,28 @@ header .header-content {
 
 /* line 560, scss/_custom.scss */
 #portfolio-nav-bar {
-  padding: 0;
-  padding-bottom: -1em;
   background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 564, scss/_custom.scss */
+#portfolio-nav-bar a {
+  margin-top: -1.6em;
+  margin-bottom: -2.4em;
+  color: #ffb733;
+}
+/* line 569, scss/_custom.scss */
+#portfolio-nav-bar a i.fa {
+  font-size: 150%;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+/* line 573, scss/_custom.scss */
+#portfolio-nav-bar a i.fa:hover {
+  -webkit-transform: scale(1.5) rotate(360deg);
+  -moz-transform: scale(1.5) rotate(360deg);
+  -ms-transform: scale(1.5) rotate(360deg);
+  -o-transform: scale(1.5) rotate(360deg);
+  transform: scale(1.5) rotate(360deg);
 }
 
 /**
@@ -9956,12 +9975,12 @@ header .header-content {
 * Contact Page Styles
 *
 **/
-/* line 572, scss/_custom.scss */
+/* line 586, scss/_custom.scss */
 .contact-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 576, scss/_custom.scss */
+/* line 590, scss/_custom.scss */
 .contact-index-block .contact-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -9970,32 +9989,32 @@ header .header-content {
   padding-bottom: 1em;
   color: white;
 }
-/* line 582, scss/_custom.scss */
+/* line 596, scss/_custom.scss */
 .contact-index-block .contact-entry-footer a:hover {
   color: red;
 }
-/* line 587, scss/_custom.scss */
+/* line 601, scss/_custom.scss */
 .contact-index-block .contact-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 599, scss/_custom.scss */
+/* line 613, scss/_custom.scss */
 .contact-index-block .contact-index-item {
   margin-bottom: 1em;
   padding-bottom: 2em;
 }
-/* line 603, scss/_custom.scss */
+/* line 617, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content {
   padding-top: 1.5em;
   padding-left: 1em;
   color: white;
 }
-/* line 609, scss/_custom.scss */
+/* line 623, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content a img {
   opacity: .7;
   border-radius: 50%;
 }
-/* line 614, scss/_custom.scss */
+/* line 628, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content a img:hover {
   opacity: 1;
   border-radius: 0%;
@@ -10020,13 +10039,13 @@ header .header-content {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 627, scss/_custom.scss */
+/* line 641, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content .social-box i.fa {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 632, scss/_custom.scss */
+/* line 646, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content .social-box i.fa:hover {
   color: white;
   -webkit-transform: scale(1.3) rotate(30deg);
@@ -10035,24 +10054,24 @@ header .header-content {
   -o-transform: scale(1.3) rotate(30deg);
   transform: scale(1.3) rotate(30deg);
 }
-/* line 641, scss/_custom.scss */
+/* line 655, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content .tab-title {
   border-bottom: 1px solid #343434;
 }
-/* line 647, scss/_custom.scss */
+/* line 661, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content h3 {
   color: #ffc966;
 }
-/* line 651, scss/_custom.scss */
+/* line 665, scss/_custom.scss */
 .contact-index-block .contact-index-item .contact-index-block-content h4 {
   color: #ffc966;
 }
 
-/* line 661, scss/_custom.scss */
+/* line 675, scss/_custom.scss */
 .contact-widget {
   background: transparent;
 }
-/* line 663, scss/_custom.scss */
+/* line 677, scss/_custom.scss */
 .contact-widget .contact-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
@@ -10060,15 +10079,15 @@ header .header-content {
   margin-bottom: 1em;
   color: white;
 }
-/* line 670, scss/_custom.scss */
+/* line 684, scss/_custom.scss */
 .contact-widget .contact-widget-content h3 {
   color: #ffc966;
 }
-/* line 676, scss/_custom.scss */
+/* line 690, scss/_custom.scss */
 .contact-widget .contact-widget-content form label {
   color: white;
 }
-/* line 681, scss/_custom.scss */
+/* line 695, scss/_custom.scss */
 .contact-widget .contact-widget-content i.fa {
   font-size: 150%;
   padding-right: .3em;
@@ -10079,11 +10098,11 @@ header .header-content {
 * Portfolio Single
 *
 **/
-/* line 697, scss/_custom.scss */
+/* line 711, scss/_custom.scss */
 .portfolio-single-block {
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 703, scss/_custom.scss */
+/* line 717, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -10092,33 +10111,33 @@ header .header-content {
   padding-bottom: 1em;
   color: white;
 }
-/* line 709, scss/_custom.scss */
+/* line 723, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-entry-footer a:hover {
   color: red;
 }
-/* line 714, scss/_custom.scss */
+/* line 728, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 726, scss/_custom.scss */
+/* line 740, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item {
   margin-bottom: 1em;
 }
-/* line 730, scss/_custom.scss */
+/* line 744, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content {
   padding-top: 1.5em;
   padding-left: 1em;
   color: white;
 }
-/* line 736, scss/_custom.scss */
+/* line 750, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content i.fa {
   font-size: 150%;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 740, scss/_custom.scss */
+/* line 754, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content i.fa:hover {
   -webkit-transform: scale(1.5) rotate(360deg);
   -moz-transform: scale(1.5) rotate(360deg);
@@ -10126,11 +10145,11 @@ header .header-content {
   -o-transform: scale(1.5) rotate(360deg);
   transform: scale(1.5) rotate(360deg);
 }
-/* line 749, scss/_custom.scss */
+/* line 763, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content a img {
   opacity: .7;
 }
-/* line 754, scss/_custom.scss */
+/* line 768, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content a img:hover {
   opacity: 1;
   border-radius: 0%;
@@ -10155,13 +10174,13 @@ header .header-content {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 767, scss/_custom.scss */
+/* line 781, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content .social-box i.fa {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 772, scss/_custom.scss */
+/* line 786, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content .social-box i.fa:hover {
   color: white;
   -webkit-transform: scale(1.3) rotate(30deg);
@@ -10170,35 +10189,35 @@ header .header-content {
   -o-transform: scale(1.3) rotate(30deg);
   transform: scale(1.3) rotate(30deg);
 }
-/* line 781, scss/_custom.scss */
+/* line 795, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content .tab-title {
   border-bottom: 1px solid #343434;
 }
-/* line 787, scss/_custom.scss */
+/* line 801, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content h3 {
   color: #ffc966;
 }
-/* line 791, scss/_custom.scss */
+/* line 805, scss/_custom.scss */
 .portfolio-single-block .portfolio-single-item .portfolio-single-block-content h4 {
   color: #ffc966;
 }
 
-/* line 800, scss/_custom.scss */
+/* line 814, scss/_custom.scss */
 .portfolio-single-widget {
   background: transparent;
 }
-/* line 803, scss/_custom.scss */
+/* line 817, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding-bottom: .1em;
   margin-bottom: 1em;
   color: white;
 }
-/* line 810, scss/_custom.scss */
+/* line 824, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content h3 {
   color: #ffc966;
 }
-/* line 816, scss/_custom.scss */
+/* line 830, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content .single-entry-footer {
   padding-left: 1em;
   padding-right: 1em;
@@ -10207,22 +10226,22 @@ header .header-content {
   padding-bottom: 1em;
   color: white;
 }
-/* line 822, scss/_custom.scss */
+/* line 836, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content .single-entry-footer a:hover {
   color: red;
 }
-/* line 827, scss/_custom.scss */
+/* line 841, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content .single-entry-footer small {
   font-size: 80%;
   padding-left: 1em;
 }
-/* line 840, scss/_custom.scss */
+/* line 854, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content .portfolio-single-content {
   padding-right: 2em;
   padding-left: 2em;
   padding-top: 1.5em;
 }
-/* line 846, scss/_custom.scss */
+/* line 860, scss/_custom.scss */
 .portfolio-single-widget .portfolio-single-widget-content .portfolio-single-content i.fa {
   font-size: 120%;
 }
@@ -10232,34 +10251,34 @@ header .header-content {
 * Footer Style
 *
 **/
-/* line 861, scss/_custom.scss */
+/* line 875, scss/_custom.scss */
 footer .footer-block {
   margin-top: 2em;
   margin-bottom: .5em;
   background-color: black;
 }
-/* line 866, scss/_custom.scss */
+/* line 880, scss/_custom.scss */
 footer .footer-block .footer-widget-item {
   padding-top: 1.5em;
   padding-left: .5em;
   color: silver;
 }
-/* line 872, scss/_custom.scss */
+/* line 886, scss/_custom.scss */
 footer .footer-block .footer-widget-item h4 {
   color: #ffc966;
 }
-/* line 878, scss/_custom.scss */
+/* line 892, scss/_custom.scss */
 footer .copyright {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 882, scss/_custom.scss */
+/* line 896, scss/_custom.scss */
 footer .copyright h6 {
   color: orange;
   font-weight: 900;
   padding-bottom: 1em;
   padding-top: 1em;
 }
-/* line 891, scss/_custom.scss */
+/* line 905, scss/_custom.scss */
 footer .copyright a:hover {
   color: white;
 }
@@ -10269,30 +10288,30 @@ footer .copyright a:hover {
 * Sidebar Styles
 *
 **/
-/* line 904, scss/_custom.scss */
+/* line 918, scss/_custom.scss */
 .sidebar-index-block {
   margin-top: 2em;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 908, scss/_custom.scss */
+/* line 922, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item {
   margin-bottom: 1em;
   padding-top: 1.5em;
   color: white;
 }
-/* line 914, scss/_custom.scss */
+/* line 928, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h3 {
   color: #ffc966;
 }
-/* line 919, scss/_custom.scss */
+/* line 933, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item h4 {
   color: #ffc966;
 }
-/* line 923, scss/_custom.scss */
+/* line 937, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content {
   padding-left: 1.5em;
 }
-/* line 925, scss/_custom.scss */
+/* line 939, scss/_custom.scss */
 .sidebar-index-block .sidebar-index-item .sidebar-index-block-content img {
   padding-right: 1.5em;
   padding-bottom: 1em;
@@ -10303,16 +10322,16 @@ footer .copyright a:hover {
 * Widget Style
 *
 **/
-/* line 942, scss/_custom.scss */
+/* line 956, scss/_custom.scss */
 .widget ul {
   padding-bottom: 2em;
   padding-right: 1.5em;
 }
-/* line 946, scss/_custom.scss */
+/* line 960, scss/_custom.scss */
 .widget ul li {
   border-bottom: 1px solid orange;
 }
-/* line 949, scss/_custom.scss */
+/* line 963, scss/_custom.scss */
 .widget ul li a:hover {
   color: white;
 }

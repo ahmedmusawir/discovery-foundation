@@ -80,33 +80,35 @@
 				<article class="about-index-block-content">
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://fillmurray.com/300/300"></a>
+						<a href="#"><img src="images/men/dawkins-1-650x650.jpg"></a>
+						<!-- <a href="#"><img src="http://fillmurray.com/300/300"></a> -->
+
 						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/3"></a> -->
 						<p>
-							<a class="button small" href="#">Go To Profile ...</a>
+							<a class="button small" href="#">Rich Dawkins</a>
 						</p>
 					</div>
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://fillmurray.com/g/300/300"></a>
+						<a href="#"><img src="images/men/karen-650x650.jpg"></a>
 						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/4"></a> -->
 						<p>
-							<a class="button small" href="#">Go To Profile ...</a>
+							<a class="button small" href="#">K. Armstrong</a>
 						</p>
 					</div>
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://stevensegallery.com/300/300"></a>
+						<a href="#"><img src="images/men/sam-1-650x650.jpg"></a>
 						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/5"></a> -->
 						<p>
-							<a class="button small" href="#">Go To Profile ...</a>
+							<a class="button small" href="#">Sam Harris</a>
 						</p>
 					</div>
 	
 					<div class="small-12 medium-3 large-3 columns">
-						<a href="#"><img src="http://fillmurray.com/g/300/300"></a>
+						<a href="#"><img src="images/men/neil-1-650x650.jpg"></a>
 						<!-- <a href="#"><img src="http://lorempixel.com/300/300/transport/6"></a> -->
 						<p>
-							<a class="button small" href="#">Go To Profile ...</a>
+							<a class="button small" href="#">Neil Tyson</a>
 						</p>
 					</div>
 	
@@ -162,19 +164,37 @@
 							<!-- <a href="#"><img src="http://lorempixel.com/950/300/nature/2"></a> -->
 							<ul class="example-orbit" data-orbit>
 							  <li>
-							    <img src="http://lorempixel.com/950/300/nature/2" alt="slide 1" />
+							    <img src="images/our-partners/our-partners-1_950x300.jpg" alt="slide 1" />
 							    <div class="orbit-caption">
 							      Caption One.
 							    </div>
 							  </li>
 							  <li class="active">
-							    <img src="http://lorempixel.com/950/300/nature/3" alt="slide 2" />
+							    <img src="images/our-partners/our-partners-2_950x300.jpg" alt="slide 2" />
 							    <div class="orbit-caption">
 							      Caption Two.
 							    </div>
 							  </li>
 							  <li>
-							    <img src="http://lorempixel.com/950/300/nature/4" alt="slide 3" />
+							    <img src="images/our-partners/our-partners-3_950x300.jpg" alt="slide 3" />
+							    <div class="orbit-caption">
+							      Caption Three.
+							    </div>
+							  </li>
+							  <li>
+							    <img src="images/our-partners/our-partners-4_950x300.jpg" alt="slide 3" />
+							    <div class="orbit-caption">
+							      Caption Three.
+							    </div>
+							  </li>
+							  <li>
+							    <img src="images/our-partners/our-partners-5_950x300.jpg" alt="slide 3" />
+							    <div class="orbit-caption">
+							      Caption Three.
+							    </div>
+							  </li>
+							  <li>
+							    <img src="images/our-partners/our-partners-6_950x300.jpg" alt="slide 3" />
 							    <div class="orbit-caption">
 							      Caption Three.
 							    </div>

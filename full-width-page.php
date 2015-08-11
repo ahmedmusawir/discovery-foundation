@@ -40,7 +40,7 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<a href="#"><img src="http://lorempixel.com/980/400/nature/7"></a>
+							<img src="http://lorempixel.com/980/400/nature/7">
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns fullpage-content">

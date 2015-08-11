@@ -40,7 +40,6 @@
 							<span class="posted-on">
 							<span class="screen-reader-text">Posted on 
 							</span><a href="#" rel="bookmark">
-							<time class="entry-date published" datetime="2015-08-05T09:14:14+00:00">August 5, 2015</time>
 							<time class="updated" datetime="2015-08-05T09:24:38+00:00">August 5, 2015</time>
 							</a></span><span class="cat-links"><span class="screen-reader-text">Categories </span>
 							<a href="#" rel="category tag">Cars</a>, <a href="http://testpress/category/chix/" rel="category tag">Chix</a>, 
@@ -54,7 +53,7 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<a href="#"><img src="http://lorempixel.com/650/350/abstract/1"></a>
+							<img src="http://lorempixel.com/650/350/abstract/1">
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns single-content">

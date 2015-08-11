@@ -44,7 +44,7 @@
 
 						<div class="small-12 medium-8 large-8 columns">
 
-							<h3><a href="#">Article Title</a></h3>
+							<a href="#"><h3>Article Title</h3></a>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -65,7 +65,6 @@
 							<span class="posted-on">
 							<span class="screen-reader-text">Posted on 
 							</span><a href="#" rel="bookmark">
-							<time class="entry-date published" datetime="2015-08-05T09:14:14+00:00">August 5, 2015</time>
 							<time class="updated" datetime="2015-08-05T09:24:38+00:00">August 5, 2015</time>
 							</a></span><span class="cat-links"><span class="screen-reader-text">Categories </span>
 							<a href="#" rel="category tag">Cars</a>, <a href="http://testpress/category/chix/" rel="category tag">Chix</a>, 
@@ -112,7 +111,6 @@
 							<span class="posted-on">
 							<span class="screen-reader-text">Posted on 
 							</span><a href="#" rel="bookmark">
-							<time class="entry-date published" datetime="2015-08-05T09:14:14+00:00">August 5, 2015</time>
 							<time class="updated" datetime="2015-08-05T09:24:38+00:00">August 5, 2015</time>
 							</a></span><span class="cat-links"><span class="screen-reader-text">Categories </span>
 							<a href="#" rel="category tag">Cars</a>, <a href="http://testpress/category/chix/" rel="category tag">Chix</a>, 
@@ -157,7 +155,6 @@
 						<span class="posted-on">
 						<span class="screen-reader-text">Posted on 
 						</span><a href="#" rel="bookmark">
-						<time class="entry-date published" datetime="2015-08-05T09:14:14+00:00">August 5, 2015</time>
 						<time class="updated" datetime="2015-08-05T09:24:38+00:00">August 5, 2015</time>
 						</a></span><span class="cat-links"><span class="screen-reader-text">Categories </span>
 						<a href="#" rel="category tag">Cars</a>, <a href="http://testpress/category/chix/" rel="category tag">Chix</a>, 
@@ -176,8 +173,8 @@
 
 				<article class="blog-index-block-content">
 			
-					<a class="button info small left small" href="#">Prev ...</a>
-					<a class="button info small right small" href="#">Next ...</a>
+					<a class="button info small left small" href="#"><i class="fa fa-arrow-circle-left"></i></a>
+					<a class="button info small right small" href="#"><i class="fa fa-arrow-circle-right"></i></a>
 
 				</article> <!-- blog-index-block-content row Ends -->
 					

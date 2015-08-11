@@ -142,6 +142,16 @@ header {
 
 	a {
 		margin-top: -2.4em;
+		color: $primary-color;
+
+		i.fa {
+		  		font-size: 150%;
+		  		@include transition(all 1s ease-in-out);
+
+		  		&:hover {
+				@include transform(scale(1.5) rotate(360deg));
+		  		}
+		  	}	
 	}
 }
 
@@ -235,7 +245,14 @@ header {
 		.text-only-content {
 			padding-left: 1.5em;			
 			padding-right: 1em;	
-			padding-top: 1.5em;		
+			padding-top: 1.5em;	
+
+			a {
+
+				&:hover {
+					color: red;
+				}
+			}		
 		}
 
 		.blog-index-item {
@@ -245,11 +262,51 @@ header {
 			h3 {
 				color: lighten( orange, 20% );
 
+
+
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
 
+			}
+
+			a {
+				h3 {
+
+					&:hover {
+						color: red;
+					}
+				}
+
+				img {
+					// border: 1px solid red;
+					@include transition(all 1s ease-in-out);
+					opacity: .8;
+
+					&:hover {
+						@include transform(scale(0.9) rotate(-3deg));
+						@include transform-origin(center top);
+						opacity: 1;
+					}
+				}
+			}
+
+			@media screen and (max-width: 640px) {
+
+				// color: red;
+				h3 {
+					padding-left: 1.1em;
+					padding-top: 1.3em;
+				}
+				p {
+					padding-left: 1.5em;
+
+					.button {
+						margin-left: -2.2em;
+					}
+				}
+			  
 			}
 
 			
@@ -828,6 +885,12 @@ footer {
 			padding-bottom: 1em;
 			padding-top: 1em;
 
+		}
+
+		a {
+			&:hover {
+				color: white;
+			}
 		}
 	}
 }

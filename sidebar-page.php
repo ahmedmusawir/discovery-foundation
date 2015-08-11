@@ -39,7 +39,7 @@
 
 
 						<div class="small-12 medium-12 large-12 columns">
-							<a href="#"><img src="http://lorempixel.com/650/350/abstract/8"></a>
+							<img src="http://lorempixel.com/650/350/abstract/8">
 						</div>
 
 						<div class="small-12 medium-12 large-12 columns single-content">

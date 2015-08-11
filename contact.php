@@ -40,25 +40,25 @@
 				<label>Name:</label>
 					<input type="text" name="" value="" placeholder="Name" required>
 				
-				<small class="error">Oops This is Boo Boo</small>
+				<small class="error animated tada">Oops This is Boo Boo</small>
 			</div>
 			<div>
 				<label>Subject:</label>
 					<input type="text" name="" value="" placeholder="Subject" required>
 				
-				<small class="error">Oops This is Boo Boo</small>
+				<small class="error animated tada">Oops This is Boo Boo</small>
 			</div>
 			<div>
 				<label>Email:</label>
 					<input type="email" name="" value="" placeholder="Email" required>
 				
-				<small class="error">Oops This is Boo Boo</small>
+				<small class="error animated tada">Oops This is Boo Boo</small>
 			</div>
 			<div>	
 				<label>Your Message:</label>
 					<textarea name="" rows="20" placeholder="Message" required></textarea>
 				
-				<small class="error">Oops This is Boo Boo</small>
+				<small class="error animated tada">Oops This is Boo Boo</small>
 			</div>
 			<div>
 				<input class="button round" type="submit" name="" value="Send Email">
@@ -140,7 +140,7 @@
 						<article class="medium-offset-3 large-offset-3">
 			
 								<h4><a href="#">Sam Harris</a></h4>
-								<div class="contact-tab-text small-12 medium-12 large-9 columns">
+								<div class="contact-tab-text small-12 medium-9 large-9 columns">
 									<p>
 										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -151,7 +151,7 @@
 										<a class="button small" href="#">Read More ...</a>
 									</p>
 								</div>
-								<div class="contact-tab-image small-12 medium-12 large-3 columns">
+								<div class="contact-tab-image small-12 medium-3 large-3 columns">
 
 									<a href="#"><img class="th" src="http://fillmurray.com/640/640"></a>
 									

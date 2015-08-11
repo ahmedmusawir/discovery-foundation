@@ -38,6 +38,7 @@
                 <li><a href="full-width-page.php">Full Width Page</a></li>
                 <li><a href="sidebar-page.php">Page w Sidebar</a></li>
                 <li><a href="sidebar-single.php">Post w Sidebar</a></li>
+                <li><a href="portfolio-single.php">Portfolio Single</a></li>
               </ul>
             </li>
           </ul>

@@ -51,7 +51,7 @@
 		</div> <!-- blog-index-item row Ends -->
 
 	</section> <!-- blog-index-block Ends -->
-	<section class="copyright"><h6 class="text-center">Proficio Copyright &copy; 2015</h6></section>
+	<section class="copyright"><h6 class="text-center">Proficio Copyright &copy; 2015 by <a href="http://www.htmlfivedev.com" target="_blank">HTMLfiveDev.com</a></h6></section>
  </footer>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

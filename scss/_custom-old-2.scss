@@ -15,19 +15,19 @@ body {
 	font-size: 500%;
 	font-weight: 900;
 } 
-.img-responsive {
+img {
 
-	display: block;
-	width: 100%;
-	max-width: 100%;
-	height: auto;
+	// display: block;
+	// width: 100%;
+	// max-width: 100%;
+	// height: auto;
 
-	@media (min-width:480px) and (max-width: 640px) {
+	// @media (min-width:480px) and (max-width: 640px) {
 
-		width: 60%;
-		margin: 0 auto;
+	// 	width: 60%;
+	// 	margin: 0 auto;
 	  
-	}
+	// }
 
 }
 
@@ -37,6 +37,10 @@ a {
 		
 		&:hover {
 		opacity: .5;
+		// width: 50%; 
+		// height: 120%;
+		// border-radius: 50%;
+
 	}
 	
   }
@@ -49,6 +53,7 @@ header {
 
 	h1 {
 		color: lighten( orange, 10% );
+		// color: lighten( blue, 30% );
 		text-shadow: 4px 4px 6px black;
 	}
 
@@ -58,17 +63,28 @@ header {
 	}
 }
 
+// @media (min-width:768px) {
+//   .front-widget {
+// 		background-color: lighten( grey, 30% );
+// 		width: 30%;
+// 		margin-left: 2em;
+// 	}
+// }
+
 /**
 *
 * Frontpage Styles
 *
 **/
 .front-widget {
-
+		// display: hidden;
+		// border: 1px solid red;
 }
 
 .frontpage-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
 	margin-bottom: 1em;
 	padding-top: 1.5em;
@@ -76,6 +92,7 @@ header {
 	
 
 	.slick-slider {
+		// border: 1px solid red;
 		
 
 	}
@@ -83,11 +100,13 @@ header {
 
 	h3 {
 		color: lighten( orange, 20% );
+		// color: lighten( blue, 30% );
 
 	}
 
 	h4 {
 		color: lighten( orange, 20% );
+		// color: lighten( blue, 30% );
 
 	}
 
@@ -107,6 +126,7 @@ header {
 			padding-left: 1em;
 		}
 
+		// border: 1px solid blue;
 		background: black;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -117,6 +137,7 @@ header {
 
 	.frontpage-index-block-content {
 
+			// border: 1px solid red;
 
 		color: lighten( grey, 60% );
 
@@ -129,6 +150,8 @@ header {
 		.frontpage-index-item {
 			margin-bottom: 1em;
 			padding-top: 1.5em;
+			// padding-left: .5em;
+			// border: 1px solid blue;
 		}
 
 
@@ -137,6 +160,8 @@ header {
 }
 
 #blog-nav-bar {
+	// border: 1px solid red;
+	// padding: 0;
 	padding-bottom: 0em;
 	padding-top: 1em;
 
@@ -147,14 +172,20 @@ header {
 
 .front-widget {
 	background: transparent;
+	// background-color: lighten( grey, 30% );
+	// width: 30%;
+	// margin-left: 2em;
 	.front-widget-content {
+		// background-color: lighten( grey, 30% );
 		background-color:rgba(0, 0, 0, 0.5);
 		padding: 1em;
 		padding-bottom: .1em;
 		margin-bottom: 1em;
+		// opacity: .8em;
 		color: lighten( grey, 60% );
 
 		h3 {
+			// color: lighten( blue, 30% );
 			color: lighten( orange, 20% );
 
 		}
@@ -165,6 +196,7 @@ header {
 	
 	h3 {
 		color: lighten( orange, 20% );
+		// border: 1px solid blue;
 	}
 
 	.frontpage-testimonial-content {
@@ -202,6 +234,8 @@ header {
 
 .blog-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
 
 	.blog-entry-footer {
@@ -220,6 +254,7 @@ header {
 			padding-left: 1em;
 		}
 
+		// border: 1px solid blue;
 		background: black;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -229,6 +264,8 @@ header {
 	}
 
 	.blog-index-block-content {
+
+			// border: 1px solid red;
 
 		color: lighten( grey, 60% );
 
@@ -241,14 +278,17 @@ header {
 		.blog-index-item {
 			margin-bottom: 1em;
 			padding-top: 1.5em;
+			// padding-left: .5em;
 
 			h3 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
 
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
 
 			}
 
@@ -261,6 +301,8 @@ header {
 }
 
 #blog-nav-bar {
+	// border: 1px solid red;
+	// padding: 0;
 	padding-bottom: 0em;
 	padding-top: 1em;
 
@@ -277,6 +319,8 @@ header {
 
 .single-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
 
 	.single-entry-footer {
@@ -295,6 +339,7 @@ header {
 			padding-left: 1em;
 		}
 
+		// border: 1px solid blue;
 		background: black;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -305,17 +350,25 @@ header {
 
 	.single-index-block-content {
 
+			// border: 1px solid red;
+
 		color: lighten( grey, 60% );
 
 		.single-index-item {
 			margin-bottom: 1em;
+			// padding-top: 1.5em;
+			// padding-left: .5em;
 
 			h3 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			.single-content {
@@ -341,6 +394,8 @@ header {
 
 .fullpage-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
 
 	.fullpage-entry-footer {
@@ -359,6 +414,7 @@ header {
 			padding-left: 1em;
 		}
 
+		// border: 1px solid blue;
 		background: black;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -369,17 +425,25 @@ header {
 
 	.fullpage-index-block-content {
 
+			// border: 1px solid red;
+
 		color: lighten( grey, 60% );
 
 		.fullpage-index-item {
 			margin-bottom: 1em;
+			// padding-top: 1.5em;
+			// padding-left: 1em;
 
 			h3 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			.fullpage-content {
@@ -404,13 +468,20 @@ header {
 
 .about-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
+			// border: 1px solid red;
 			h3 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			margin-bottom: 1em;
@@ -430,7 +501,21 @@ header {
 
 		.about-index-item {
 			
-		
+			// padding-left: .5em;
+
+			h3 {
+				// color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			h4 {
+				// color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
+			}
+
+			
 		}
 
 
@@ -447,14 +532,20 @@ header {
 
 .portfolio-widget {
 	background: transparent;
+	// background-color: lighten( grey, 30% );
+	// width: 30%;
+	// margin-left: 2em;
 	.portfolio-widget-content {
+		// background-color: lighten( grey, 30% );
 		background-color:rgba(0, 0, 0, 0.5);
 		padding: 1em;
 		padding-bottom: .1em;
 		margin-bottom: 1em;
+		// opacity: .8em;
 		color: lighten( grey, 60% );
 
 		h4 {
+			// color: lighten( blue, 30% );
 			color: lighten( orange, 20% );
 
 		}
@@ -470,11 +561,14 @@ header {
 	margin-top: 2em;
 	padding-top: 1em;
 	padding-bottom: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 		background-color: rgba(0, 0, 0, 0.7);
 
 	.portfolio-index-item {
 		margin-bottom: 1em;
 		padding-top: 1.5em;
+		// padding-left: .5em;
 		color: lighten( grey, 60% );
 
 
@@ -501,6 +595,7 @@ header {
 }
 
 #portfolio-nav-bar {
+	// border: 1px solid red;
 	padding: 0;
 	padding-bottom: -1em;
 	background-color:rgba(0, 0, 0, 0.3);
@@ -514,6 +609,8 @@ header {
 
 .contact-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 	background-color: rgba(0, 0, 0, 0.7);
 
 	.contact-entry-footer {
@@ -532,6 +629,7 @@ header {
 			padding-left: 1em;
 		}
 
+		// border: 1px solid blue;
 		background: black;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -542,6 +640,7 @@ header {
 	.contact-index-item {
 		margin-bottom: 1em;
 		padding-bottom: 2em;
+		// border: 1px solid red;
 
 		.contact-index-block-content {
 
@@ -550,13 +649,9 @@ header {
 
 			a {
 				img {
-
-					opacity: .7;
-					border-radius: 50%;
-
 					&:hover {
-						opacity: 1;
-						border-radius: 0%;
+						opacity: .7;
+						border-radius: 50%;
 						@include transform(translateY(50px));
 						@include transform(scale(0.9) rotate(-3deg));
 						@include transform-origin(center top);
@@ -566,7 +661,6 @@ header {
 			}
 
 			.social-box {
-
 				i.fa {
 
 				@include transition(all 1s ease-in-out);
@@ -582,6 +676,7 @@ header {
 			}
 
 			.tab-title {
+				// border-bottom: 1px solid darken( $primary-color, 10% );
 				border-bottom: 1px solid darken( $secondary-color, 30% );
 			}
 
@@ -589,10 +684,14 @@ header {
 
 			h3 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
+
 			}
 
 		}
@@ -603,14 +702,20 @@ header {
 
 .contact-widget {
 	background: transparent;
+	// background-color: lighten( grey, 30% );
+	// width: 30%;
+	// margin-left: 2em;
 	.contact-widget-content {
+		// background-color: lighten( grey, 30% );
 		background-color:rgba(0, 0, 0, 0.5);
 		padding: 1em;
 		padding-bottom: .1em;
 		margin-bottom: 1em;
+		// opacity: .8em;
 		color: lighten( grey, 60% );
 
 		h3 {
+			// color: lighten( blue, 30% );
 			color: lighten( orange, 20% );
 
 		}
@@ -627,172 +732,14 @@ header {
 		}
 
 		.contact-phone-numbers {
-
-		}
-	}
-}
-
-/**
-*
-* Portfolio Single
-*
-**/
-.portfolio-single-block {
-	// margin-top: 2em;
-	background-color: rgba(0, 0, 0, 0.7);
-
-
-
-	.portfolio-single-entry-footer {
-
-		padding-left: 1em;
-		padding-right: 1em;
-
-		a {
-			&:hover {
-				color: red;
-			}
-		}
-
-		small {
-			font-size: 80%;
-			padding-left: 1em;
-		}
-
-		background: black;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		color: lighten( grey, 60% );
-
-
-	}
-	.portfolio-single-item {
-		margin-bottom: 1em;
-		// padding-bottom: 2em;
-
-		.portfolio-single-block-content {
-
+			// padding-top: 1em;
+			// padding-bottom: .5em;
+			// margin-bottom: .5em;
 			// border: 1px solid red;
-			padding-top: 1.5em;
-			padding-left: 1em;
-
-		  	i.fa {
-		  		font-size: 150%;
-		  		@include transition(all 1s ease-in-out);
-
-		  		&:hover {
-				@include transform(scale(1.5) rotate(360deg));
-		  		}
-		  	}	
-	  
-
-
-
-			a {
-				img {
-
-					opacity: .7;
-					// border-radius: 50%;
-
-					&:hover {
-						opacity: 1;
-						border-radius: 0%;
-						@include transform(translateY(50px));
-						@include transform(scale(0.9) rotate(-3deg));
-						@include transform-origin(center top);
-						@include transform-style(preserve-3d);
-					}
-				}
-			}
-
-			.social-box {
-
-				i.fa {
-
-				@include transition(all 1s ease-in-out);
-
-
-					&:hover {
-						color: white;
-						@include transform(scale(1.3) rotate(30deg));
-
-					}
-
-				}
-			}
-
-			.tab-title {
-				border-bottom: 1px solid darken( $secondary-color, 30% );
-			}
-
-			color: lighten( grey, 60% );
-
-			h3 {
-				color: lighten( orange, 20% );
-			}
-
-			h4 {
-				color: lighten( orange, 20% );
-			}
-
 		}
-		
-	}
-
-}
-.portfolio-single-widget {
-	background: transparent;
-
-	.portfolio-single-widget-content {
-		background-color:rgba(0, 0, 0, 0.5);
-		// padding: 1em;
-		padding-bottom: .1em;
-		margin-bottom: 1em;
-		color: lighten( grey, 60% );
-
-		h3 {
-			color: lighten( orange, 20% );
-
-		}
-
-
-		.single-entry-footer {
-
-		padding-left: 1em;
-		padding-right: 1em;
-
-		a {
-			&:hover {
-				color: red;
-			}
-		}
-
-		small {
-			font-size: 80%;
-			padding-left: 1em;
-		}
-
-		background: black;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		color: lighten( grey, 60% );
-
-
-	  }
-
-	  .portfolio-single-content {
-
-	  	padding-right: 2em;
-	  	padding-left: 2em;
-	  	padding-top: 1.5em;
-
-	  	i.fa {
-	  		font-size: 120%;
-	  	}
-
-	  }
 	}
 }
+
 /**
 *
 * Footer Style
@@ -804,9 +751,12 @@ footer {
 	.footer-block {
 		margin-top: 2em;
 		margin-bottom: .5em;
+		// padding-top: 1em;
+		// background: transparent;
 		background-color: rgba(0, 0, 0, 1);
 
 		.footer-widget-item {
+			// margin-bottom: 1em;
 			padding-top: 1.5em;
 			padding-left: .5em;
 			color: lighten( grey, 25% );
@@ -814,6 +764,7 @@ footer {
 
 			h4 {
 				color: lighten( orange, 20% );
+				// color: lighten( blue, 30% );
 
 			}
 		}
@@ -840,21 +791,26 @@ footer {
 
 .sidebar-index-block {
 	margin-top: 2em;
+	// padding-top: 1em;
+	// background: transparent;
 		background-color: rgba(0, 0, 0, 0.7);
 
 	.sidebar-index-item {
 		margin-bottom: 1em;
 		padding-top: 1.5em;
+		// padding-left: .5em;
 		color: lighten( grey, 60% );
 
 
 		h3 {
 			color: lighten( orange, 20% );
+			// color: lighten( blue, 30% );
 
 		}
 		
 		h4 {
 			color: lighten( orange, 20% );
+			// color: lighten( blue, 30% );
 
 		}
 		.sidebar-index-block-content {
@@ -869,12 +825,14 @@ footer {
 
 }
 
+
 /**
 *
 * Widget Style
 *
 **/
 .widget {
+	// border: 1px solid red;
 
 	ul {
 		padding-bottom: 2em;
@@ -890,7 +848,20 @@ footer {
 	}
 }
 
+/**
+*
+* The Accordion Styles
+*
+**/
+.accordion {
 
+		// border: 1px solid red;
+
+	a {
+		// margin: 0 auto;
+		// border: 1px solid red;
+	}
+}
 
 
 

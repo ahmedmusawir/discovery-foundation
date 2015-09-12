@@ -44,4 +44,30 @@ jQuery(document).ready(function($){
 	    }
 	  )
 	  wow.init();
- });
+
+	  /**
+ *
+ * Nav Active Highlight
+ *
+ */
+	 	var page = window.location.pathname;
+	 	// console.log(page);
+
+	 	var currentPage = page.substring(1, page.length);
+	 	// console.log(currentPage);
+		
+		// var $activeLink = $('.main-nav').children("li:contains('About')").css('border', '1px solid red');
+		// var $activeLink = $('.main-nav').children('li').children("a:contains('About')").css('color', 'red');
+		
+		$(".main-nav").find("[data-page='" + currentPage + "']").addClass('active');
+
+		var dropdown = $('.dropdown').children('li').hasClass('active');
+		console.log(dropdown);
+
+		if (dropdown) {
+			$('.has-dropdown').addClass('active');
+		}
+
+			
+});
+

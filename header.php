@@ -21,24 +21,24 @@
             <h1><a href="index.php">Proficio</a></h1>
           </li>
            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
         <section class="top-bar-section">
           <!-- Right Nav Section -->
-          <ul class="right">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li class=""><a href="about.php">About</a></li>
-            <li class=""><a href="portfolio.php">Portfolio</a></li>
-            <li class=""><a href="blog.php">Blog</a></li>
-            <li class=""><a href="contact.php">Contact</a></li>
+          <ul class="right main-nav">
+            <li  data-page="index.php"><a href="index.php">Home</a></li>
+            <li  data-page="about.php"><a href="about.php">About</a></li>
+            <li  data-page="portfolio.php"><a href="portfolio.php">Portfolio</a></li>
+            <li  data-page="blog.php"><a href="blog.php">Blog</a></li>
+            <li  data-page="contact.php"><a href="contact.php">Contact</a></li>
             <li class="has-dropdown">
               <a href="#">Sample Pages</a>
               <ul class="dropdown">
-                <li><a href="full-width-page.php">Full Width Page</a></li>
-                <li><a href="sidebar-page.php">Page w Sidebar</a></li>
-                <li><a href="sidebar-single.php">Post w Sidebar</a></li>
-                <li><a href="portfolio-single.php">Portfolio Single</a></li>
+                <li data-page="full-width-page.php"><a href="full-width-page.php">Full Width Page</a></li>
+                <li data-page="sidebar-page.php"><a href="sidebar-page.php">Page w Sidebar</a></li>
+                <li data-page="sidebar-single.php"><a href="sidebar-single.php">Post w Sidebar</a></li>
+                <li data-page="portfolio-single.php"><a href="portfolio-single.php">Portfolio Single</a></li>
               </ul>
             </li>
           </ul>

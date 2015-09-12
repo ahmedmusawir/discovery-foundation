@@ -75,9 +75,14 @@ header {
 
 	
 
-	.slick-slider {
+	.frontpage-portfolio-slider {
 		
-
+		@media screen and (max-width: 1050px) {
+			max-width: 90%;
+			width: auto;
+			// border: 1px solid red;
+			margin: 0 auto;
+		}
 	}
 
 
@@ -746,6 +751,14 @@ header {
 			// border: 1px solid red;
 			padding-top: 1.5em;
 			padding-left: 1em;
+
+			@media screen and (max-width: 1050px) {
+				max-width: 90%;
+				width: auto;
+				// border: 1px solid red;
+				margin: 0 auto;
+			}
+
 
 		  	i.fa {
 		  		font-size: 150%;

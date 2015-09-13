@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     
   </head>
@@ -33,7 +34,7 @@
             <li  data-page="blog.php"><a href="blog.php">Blog</a></li>
             <li  data-page="contact.php"><a href="contact.php">Contact</a></li>
             <li class="has-dropdown">
-              <a href="#">Sample Pages</a>
+              <a href="">Sample Pages</a>
               <ul class="dropdown">
                 <li data-page="full-width-page.php"><a href="full-width-page.php">Full Width Page</a></li>
                 <li data-page="sidebar-page.php"><a href="sidebar-page.php">Page w Sidebar</a></li>

@@ -1,15 +1,21 @@
 @import "bourbon/bourbon";
+html {
+	background-color: darken( grey, 30% );
+	z-index: -9999;
+	 background: url(images/bg-14.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 
 // MY CUSTOM CSS
 body {
 
   display: none;	
-  background-color: lighten( grey, 30% );
-  background: url(images/bg-14.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: transparent;
+ 
 }
 .site-title {
 	font-size: 500%;

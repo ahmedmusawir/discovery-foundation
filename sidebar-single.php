@@ -1,17 +1,20 @@
 <?php include 'header.php' ?>
 <style type="text/css">
-	body {
-	  background: url(images/bg-16.jpg) no-repeat center center fixed; 
-	  /*background: url(images/bg-17.jpg) no-repeat center center fixed; */
-	  /*background: url(images/bg-9.jpg) no-repeat center center fixed; */
-	  /*background: url(images/bg-2.jpg) no-repeat center center fixed; */
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-
+	
+	#bg {
+	  position: fixed; 
+	  top: 0; 
+	  left: 0; 
+		
+	  /* Preserve aspet ratio */
+	  min-width: 100%;
+	  min-height: 100%;
+	  z-index: -9999;
 	}
+
 </style>
+<img src="images/bg-16.jpg" id="bg" alt="">
+
 <header class="row">
   <div class="small-12 columns">
     <h1><a href="#">SINGLE POST</a></h1>
